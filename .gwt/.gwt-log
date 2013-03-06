@@ -1,0 +1,3364 @@
+Public resources found in...
+Translatable source found in...
+Found 2718 cached/archived units.  Used 2718 / 2723 units from cache.
+Compiling...
+   Compilation completed in 0,41 seconds
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,08 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446396367.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446396367.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446396367_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446397705.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446397705.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446397705_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,05 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446458324.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446458324.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446458324_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446478162.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446478162.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446478162_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,06 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446478276.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446478276.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446478276_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446548152.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446548152.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446548152_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446548238.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446548238.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446548238_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446581157.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446581157.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446581157_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446585383.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446585383.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446585383_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446603704.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446603704.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446603704_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446764384_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446764453_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446764797_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446764849_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,11 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446764964.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446764964.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446764964_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446776487.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446776487.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446776487_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446788457.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446788457.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446788457_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446794252.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446794252.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446794252_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446801297.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446801297.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446801297_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446875049_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446875112_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446880712_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446880765_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446880881.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446880881.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446880881_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,05 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446883431.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446883431.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446883431_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446886816.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446886816.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446886816_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446897764.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446897764.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446897764_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446926274.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446926274.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361446926274_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361447082855.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361447082855.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361447082855_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361447087304.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361447087304.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361447087304_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361447142696.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361447142696.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361447142696_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361447157374.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361447157374.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361447157374_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361447423172.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361447423172.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361447423172_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,11 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361447433924.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361447433924.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 2,48 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361447433924_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,06 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361447439402.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361447439402.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361447439402_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,05 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361447445932.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361447445932.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361447445932_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361447471652.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361447471652.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361447471652_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361447495036.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361447495036.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361447495036_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Invoking generator com.google.gwt.uibinder.rebind.UiBinderGenerator
+      [ERROR] Class Label has no appropriate setVerticalAlignment() method: <g:Label height='30px' text='Nombre del Equipo:' ui:field='lTeamName' verticalAlignment='ALIGN_LEFT' width='122px'> (:12)
+[ERROR] Deferred binding failed for 'org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder'; expect subsequent failures
+Public resources found in...
+Translatable source found in...
+Found 0 cached/archived units.  Used 0 / 2723 units from cache.
+Compiling...
+   10% complete (ETR: 54 seconds)
+   10% complete (ETR: 53 seconds)
+   20% complete (ETR: 54 seconds)
+   30% complete (ETR: 40 seconds)
+   40% complete (ETR: 35 seconds)
+   50% complete (ETR: 30 seconds)
+   60% complete (ETR: 25 seconds)
+   70% complete (ETR: 17 seconds)
+   80% complete (ETR: 12 seconds)
+   90% complete (ETR: 6 seconds)
+   100% complete (ETR: 0 seconds)
+   Compilation completed in 72,75 seconds
+Validating units:
+   [ERROR] Errors in 'file:/E:/workspace/prefaleague/src/org/ibertech/client/ui/TeamDetailsView.java'
+      [ERROR] Line 32: button cannot be resolved
+      [ERROR] Line 36: button cannot be resolved
+      [ERROR] Line 40: button cannot be resolved
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+[ERROR] Errors in 'file:/E:/workspace/prefaleague/src/org/ibertech/client/ui/TeamDetailsView.java'
+   [ERROR] Line 32: button cannot be resolved
+   [ERROR] Line 36: button cannot be resolved
+   [ERROR] Line 40: button cannot be resolved
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Checking rule <generate-with class='com.google.gwt.user.rebind.rpc.ServiceInterfaceProxyGenerator'/>
+      [ERROR] Errors in 'file:/E:/workspace/prefaleague/src/org/ibertech/client/ui/TeamDetailsView.java'
+         [ERROR] Line 32: button cannot be resolved
+         [ERROR] Line 36: button cannot be resolved
+         [ERROR] Line 40: button cannot be resolved
+      [ERROR] Unable to find type 'org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder'
+         [ERROR] Hint: Previous compiler errors may have made this type unavailable
+         [ERROR] Hint: Check the inheritance chain from your module; it may not be inheriting a required module or a module may not be adding its source path entries properly
+[ERROR] Deferred binding failed for 'org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder'; expect subsequent failures
+Public resources found in...
+Translatable source found in...
+Found 2723 cached/archived units.  Used 2723 / 2723 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Validating units:
+   [ERROR] Errors in 'file:/E:/workspace/prefaleague/src/org/ibertech/client/ui/TeamDetailsView.java'
+      [ERROR] Line 32: button cannot be resolved
+      [ERROR] Line 36: button cannot be resolved
+      [ERROR] Line 40: button cannot be resolved
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+[ERROR] Errors in 'file:/E:/workspace/prefaleague/src/org/ibertech/client/ui/TeamDetailsView.java'
+   [ERROR] Line 32: button cannot be resolved
+   [ERROR] Line 36: button cannot be resolved
+   [ERROR] Line 40: button cannot be resolved
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Checking rule <generate-with class='com.google.gwt.user.rebind.rpc.ServiceInterfaceProxyGenerator'/>
+      [ERROR] Errors in 'file:/E:/workspace/prefaleague/src/org/ibertech/client/ui/TeamDetailsView.java'
+         [ERROR] Line 32: button cannot be resolved
+         [ERROR] Line 36: button cannot be resolved
+         [ERROR] Line 40: button cannot be resolved
+      [ERROR] Unable to find type 'org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder'
+         [ERROR] Hint: Previous compiler errors may have made this type unavailable
+         [ERROR] Hint: Check the inheritance chain from your module; it may not be inheriting a required module or a module may not be adding its source path entries properly
+[ERROR] Deferred binding failed for 'org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder'; expect subsequent failures
+Public resources found in...
+Translatable source found in...
+Found 0 cached/archived units.  Used 0 / 2723 units from cache.
+Compiling...
+   0% complete (ETR: ?)
+   10% complete (ETR: 151 seconds)
+   20% complete (ETR: 108 seconds)
+   30% complete (ETR: 86 seconds)
+   40% complete (ETR: 71 seconds)
+   50% complete (ETR: 58 seconds)
+   60% complete (ETR: 48 seconds)
+   70% complete (ETR: 35 seconds)
+   80% complete (ETR: 24 seconds)
+   90% complete (ETR: 12 seconds)
+   100% complete (ETR: 0 seconds)
+   Compilation completed in 133,36 seconds
+Validating units:
+   [ERROR] Errors in 'file:/E:/workspace/prefaleague/src/org/ibertech/client/ui/TeamDetailsView.java'
+      [ERROR] Line 32: button cannot be resolved
+      [ERROR] Line 36: button cannot be resolved
+      [ERROR] Line 40: button cannot be resolved
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+[ERROR] Errors in 'file:/E:/workspace/prefaleague/src/org/ibertech/client/ui/TeamDetailsView.java'
+   [ERROR] Line 32: button cannot be resolved
+   [ERROR] Line 36: button cannot be resolved
+   [ERROR] Line 40: button cannot be resolved
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Checking rule <generate-with class='com.google.gwt.user.rebind.rpc.ServiceInterfaceProxyGenerator'/>
+      [ERROR] Errors in 'file:/E:/workspace/prefaleague/src/org/ibertech/client/ui/TeamDetailsView.java'
+         [ERROR] Line 32: button cannot be resolved
+         [ERROR] Line 36: button cannot be resolved
+         [ERROR] Line 40: button cannot be resolved
+      [ERROR] Unable to find type 'org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder'
+         [ERROR] Hint: Previous compiler errors may have made this type unavailable
+         [ERROR] Hint: Check the inheritance chain from your module; it may not be inheriting a required module or a module may not be adding its source path entries properly
+[ERROR] Deferred binding failed for 'org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder'; expect subsequent failures
+Public resources found in...
+Translatable source found in...
+Found 2723 cached/archived units.  Used 2723 / 2723 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Validating units:
+   [ERROR] Errors in 'file:/E:/workspace/prefaleague/src/org/ibertech/client/ui/TeamDetailsView.java'
+      [ERROR] Line 32: button cannot be resolved
+      [ERROR] Line 36: button cannot be resolved
+      [ERROR] Line 40: button cannot be resolved
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,12 seconds
+      Removing invalidated units
+[ERROR] Errors in 'file:/E:/workspace/prefaleague/src/org/ibertech/client/ui/TeamDetailsView.java'
+   [ERROR] Line 32: button cannot be resolved
+   [ERROR] Line 36: button cannot be resolved
+   [ERROR] Line 40: button cannot be resolved
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Checking rule <generate-with class='com.google.gwt.user.rebind.rpc.ServiceInterfaceProxyGenerator'/>
+      [ERROR] Errors in 'file:/E:/workspace/prefaleague/src/org/ibertech/client/ui/TeamDetailsView.java'
+         [ERROR] Line 32: button cannot be resolved
+         [ERROR] Line 36: button cannot be resolved
+         [ERROR] Line 40: button cannot be resolved
+      [ERROR] Unable to find type 'org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder'
+         [ERROR] Hint: Previous compiler errors may have made this type unavailable
+         [ERROR] Hint: Check the inheritance chain from your module; it may not be inheriting a required module or a module may not be adding its source path entries properly
+[ERROR] Deferred binding failed for 'org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder'; expect subsequent failures
+Public resources found in...
+Translatable source found in...
+Found 0 cached/archived units.  Used 0 / 2723 units from cache.
+Compiling...
+   0% complete (ETR: ?)
+   10% complete (ETR: 120 seconds)
+   20% complete (ETR: 94 seconds)
+   30% complete (ETR: 86 seconds)
+   40% complete (ETR: 76 seconds)
+   50% complete (ETR: 64 seconds)
+   60% complete (ETR: 52 seconds)
+   70% complete (ETR: 40 seconds)
+   80% complete (ETR: 27 seconds)
+   90% complete (ETR: 15 seconds)
+   100% complete (ETR: 0 seconds)
+   Compilation completed in 164,11 seconds
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,07 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361448806936.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361448806936.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361448806936_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361448811069.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361448811069.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361448811069_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361448942729.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361448942729.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361448942729_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,05 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361448956928.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361448956928.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361448956928_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,12 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449015659.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449015659.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449015659_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,07 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449033532.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449033532.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449033532_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449042655.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449042655.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449042655_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449051959.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449051959.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449051959_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449064162.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449064162.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449064162_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 3,04 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449072487.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449072487.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449072487_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 3,09 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449093237.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449093237.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449093237_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449112712.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449112712.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449112712_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,06 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449120620.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449120620.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449120620_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,05 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449129829.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449129829.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449129829_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 3,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449143666.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449143666.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449143666_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449147293.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449147293.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449147293_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,05 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449158757.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449158757.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449158757_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,05 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449174016.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449174016.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449174016_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,05 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449199453.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449199453.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449199453_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 3,00 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449224051.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449224051.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449224051_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,06 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449243575.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449243575.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449243575_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,06 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449265386.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449265386.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449265386_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449343207_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449343293_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449356634_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449356732_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449360325.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449360325.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449360325_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449368019.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449368019.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449368019_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,06 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449370807.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449370807.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449370807_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,05 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449383263.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449383263.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449383263_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,05 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449392410.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449392410.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 3,58 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449392410_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449396253.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449396253.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449396253_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 3,10 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449416520.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449416520.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449416520_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449426950.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449426950.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449426950_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,06 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449433432.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449433432.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449433432_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449454003.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449454003.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449454003_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449459692_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449459784.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449459784.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449459784_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449466953_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449467034.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449467034.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449467034_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449467152.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449467152.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449467152_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449473278.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449473278.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449473278_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,05 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449475441.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449475441.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449475441_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449480407_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449480467.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449480467.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449480467_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,06 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449483548.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449483548.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449483548_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449501808.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449501808.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449501808_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,06 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449526328.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449526328.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449526328_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,14 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449664820.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449664820.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361449664820_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,06 seconds
+      Removing invalidated units
+Public resources found in...
+Translatable source found in...
+Found 0 cached/archived units.  Used 0 / 2756 units from cache.
+Compiling...
+   0% complete (ETR: ?)
+   10% complete (ETR: 192 seconds)
+   20% complete (ETR: 139 seconds)
+   30% complete (ETR: 121 seconds)
+   40% complete (ETR: 102 seconds)
+   50% complete (ETR: 83 seconds)
+   60% complete (ETR: 65 seconds)
+   70% complete (ETR: 48 seconds)
+   80% complete (ETR: 33 seconds)
+   90% complete (ETR: 16 seconds)
+   100% complete (ETR: 0 seconds)
+   Compilation completed in 193,56 seconds
+Validating units:
+   [ERROR] Errors in 'file:/E:/workspace/prefaleague/src/org/ibertech/client/ui/ContactDetailsView.java'
+      [ERROR] Line 22: The import com.toedter cannot be resolved
+      [ERROR] Line 24: IContactDetailsView cannot be resolved to a type
+      [ERROR] Line 38: Contact cannot be resolved to a type
+      [ERROR] Line 48: The method setContact(Contact) of type ContactDetailsView must override or implement a supertype method
+      [ERROR] Line 48: Contact cannot be resolved to a type
+      [ERROR] Line 49: Contact cannot be resolved to a type
+      [ERROR] Line 63: The method setPresenter(Presenter) of type ContactDetailsView must override or implement a supertype method
+      [ERROR] Line 63: Presenter cannot be resolved to a type
+      [ERROR] Line 69: The method getContactEmail() of type ContactDetailsView must override or implement a supertype method
+      [ERROR] Line 74: The method clear() of type ContactDetailsView must override or implement a supertype method
+      [ERROR] Line 75: Contact cannot be resolved to a type
+      [ERROR] Line 85: Contact cannot be resolved to a type
+      [ERROR] Line 85: The method getContact() of type ContactDetailsView must override or implement a supertype method
+      [ERROR] Line 86: Contact cannot be resolved to a type
+      [ERROR] Line 87: Contact cannot be resolved to a type
+      [ERROR] Line 87: Contact cannot be resolved to a type
+      [ERROR] Line 90: Contact cannot be resolved to a type
+      [ERROR] Line 93: Contact cannot be resolved to a type
+      [ERROR] Line 96: Contact cannot be resolved to a type
+      [ERROR] Line 99: Contact cannot be resolved to a type
+      [ERROR] Line 100: Contact cannot be resolved to a type
+      [ERROR] Line 102: Contact cannot be resolved to a type
+      [ERROR] Line 103: Contact cannot be resolved to a type
+      [ERROR] Line 104: Contact cannot be resolved to a type
+   [ERROR] Errors in 'file:/E:/workspace/prefaleague/src/org/ibertech/client/ui/TeamDetailsView.java'
+      [ERROR] Line 39: The method initWidget(Widget) is undefined for the type TeamDetailsView
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,07 seconds
+      Removing invalidated units
+[ERROR] Errors in 'file:/E:/workspace/prefaleague/src/org/ibertech/client/ui/TeamDetailsView.java'
+   [ERROR] Line 39: The method initWidget(Widget) is undefined for the type TeamDetailsView
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Checking rule <generate-with class='com.google.gwt.place.rebind.PlaceHistoryMapperGenerator'/>
+      [ERROR] Errors in 'file:/E:/workspace/prefaleague/src/org/ibertech/client/ui/TeamDetailsView.java'
+         [ERROR] Line 39: The method initWidget(Widget) is undefined for the type TeamDetailsView
+      [ERROR] Unable to find type 'org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder'
+         [ERROR] Hint: Previous compiler errors may have made this type unavailable
+         [ERROR] Hint: Check the inheritance chain from your module; it may not be inheriting a required module or a module may not be adding its source path entries properly
+[ERROR] Deferred binding failed for 'org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder'; expect subsequent failures
+Public resources found in...
+Translatable source found in...
+Found 2755 cached/archived units.  Used 2755 / 2756 units from cache.
+Compiling...
+   Compilation completed in 0,14 seconds
+Validating units:
+   [ERROR] Errors in 'file:/E:/workspace/prefaleague/src/org/ibertech/client/ui/ContactDetailsView.java'
+      [ERROR] Line 22: The import com.toedter cannot be resolved
+      [ERROR] Line 24: IContactDetailsView cannot be resolved to a type
+      [ERROR] Line 38: Contact cannot be resolved to a type
+      [ERROR] Line 48: The method setContact(Contact) of type ContactDetailsView must override or implement a supertype method
+      [ERROR] Line 48: Contact cannot be resolved to a type
+      [ERROR] Line 49: Contact cannot be resolved to a type
+      [ERROR] Line 63: The method setPresenter(Presenter) of type ContactDetailsView must override or implement a supertype method
+      [ERROR] Line 63: Presenter cannot be resolved to a type
+      [ERROR] Line 69: The method getContactEmail() of type ContactDetailsView must override or implement a supertype method
+      [ERROR] Line 74: The method clear() of type ContactDetailsView must override or implement a supertype method
+      [ERROR] Line 75: Contact cannot be resolved to a type
+      [ERROR] Line 85: Contact cannot be resolved to a type
+      [ERROR] Line 85: The method getContact() of type ContactDetailsView must override or implement a supertype method
+      [ERROR] Line 86: Contact cannot be resolved to a type
+      [ERROR] Line 87: Contact cannot be resolved to a type
+      [ERROR] Line 87: Contact cannot be resolved to a type
+      [ERROR] Line 90: Contact cannot be resolved to a type
+      [ERROR] Line 93: Contact cannot be resolved to a type
+      [ERROR] Line 96: Contact cannot be resolved to a type
+      [ERROR] Line 99: Contact cannot be resolved to a type
+      [ERROR] Line 100: Contact cannot be resolved to a type
+      [ERROR] Line 102: Contact cannot be resolved to a type
+      [ERROR] Line 103: Contact cannot be resolved to a type
+      [ERROR] Line 104: Contact cannot be resolved to a type
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+[ERROR] Errors in 'file:/E:/workspace/prefaleague/src/org/ibertech/client/ui/ContactDetailsView.java'
+   [ERROR] Line 22: The import com.toedter cannot be resolved
+   [ERROR] Line 24: IContactDetailsView cannot be resolved to a type
+   [ERROR] Line 38: Contact cannot be resolved to a type
+   [ERROR] Line 48: The method setContact(Contact) of type ContactDetailsView must override or implement a supertype method
+   [ERROR] Line 48: Contact cannot be resolved to a type
+   [ERROR] Line 49: Contact cannot be resolved to a type
+   [ERROR] Line 63: The method setPresenter(Presenter) of type ContactDetailsView must override or implement a supertype method
+   [ERROR] Line 63: Presenter cannot be resolved to a type
+   [ERROR] Line 69: The method getContactEmail() of type ContactDetailsView must override or implement a supertype method
+   [ERROR] Line 74: The method clear() of type ContactDetailsView must override or implement a supertype method
+   [ERROR] Line 75: Contact cannot be resolved to a type
+   [ERROR] Line 85: Contact cannot be resolved to a type
+   [ERROR] Line 85: The method getContact() of type ContactDetailsView must override or implement a supertype method
+   [ERROR] Line 86: Contact cannot be resolved to a type
+   [ERROR] Line 87: Contact cannot be resolved to a type
+   [ERROR] Line 87: Contact cannot be resolved to a type
+   [ERROR] Line 90: Contact cannot be resolved to a type
+   [ERROR] Line 93: Contact cannot be resolved to a type
+   [ERROR] Line 96: Contact cannot be resolved to a type
+   [ERROR] Line 99: Contact cannot be resolved to a type
+   [ERROR] Line 100: Contact cannot be resolved to a type
+   [ERROR] Line 102: Contact cannot be resolved to a type
+   [ERROR] Line 103: Contact cannot be resolved to a type
+   [ERROR] Line 104: Contact cannot be resolved to a type
+Rebinding org.ibertech.client.ui.ContactDetailsView.ContactDetailsViewUiBinder
+   Checking rule <generate-with class='com.google.gwt.place.rebind.PlaceHistoryMapperGenerator'/>
+      [ERROR] Errors in 'file:/E:/workspace/prefaleague/src/org/ibertech/client/ui/ContactDetailsView.java'
+         [ERROR] Line 22: The import com.toedter cannot be resolved
+         [ERROR] Line 24: IContactDetailsView cannot be resolved to a type
+         [ERROR] Line 38: Contact cannot be resolved to a type
+         [ERROR] Line 48: The method setContact(Contact) of type ContactDetailsView must override or implement a supertype method
+         [ERROR] Line 48: Contact cannot be resolved to a type
+         [ERROR] Line 49: Contact cannot be resolved to a type
+         [ERROR] Line 63: The method setPresenter(Presenter) of type ContactDetailsView must override or implement a supertype method
+         [ERROR] Line 63: Presenter cannot be resolved to a type
+         [ERROR] Line 69: The method getContactEmail() of type ContactDetailsView must override or implement a supertype method
+         [ERROR] Line 74: The method clear() of type ContactDetailsView must override or implement a supertype method
+         [ERROR] Line 75: Contact cannot be resolved to a type
+         [ERROR] Line 85: Contact cannot be resolved to a type
+         [ERROR] Line 85: The method getContact() of type ContactDetailsView must override or implement a supertype method
+         [ERROR] Line 86: Contact cannot be resolved to a type
+         [ERROR] Line 87: Contact cannot be resolved to a type
+         [ERROR] Line 87: Contact cannot be resolved to a type
+         [ERROR] Line 90: Contact cannot be resolved to a type
+         [ERROR] Line 93: Contact cannot be resolved to a type
+         [ERROR] Line 96: Contact cannot be resolved to a type
+         [ERROR] Line 99: Contact cannot be resolved to a type
+         [ERROR] Line 100: Contact cannot be resolved to a type
+         [ERROR] Line 102: Contact cannot be resolved to a type
+         [ERROR] Line 103: Contact cannot be resolved to a type
+         [ERROR] Line 104: Contact cannot be resolved to a type
+      [ERROR] Unable to find type 'org.ibertech.client.ui.ContactDetailsView.ContactDetailsViewUiBinder'
+         [ERROR] Hint: Previous compiler errors may have made this type unavailable
+         [ERROR] Hint: Check the inheritance chain from your module; it may not be inheriting a required module or a module may not be adding its source path entries properly
+[ERROR] Deferred binding failed for 'org.ibertech.client.ui.ContactDetailsView.ContactDetailsViewUiBinder'; expect subsequent failures
+Public resources found in...
+Translatable source found in...
+Found 0 cached/archived units.  Used 0 / 2756 units from cache.
+Compiling...
+   20% complete (ETR: 38 seconds)
+   20% complete (ETR: 38 seconds)
+   20% complete (ETR: 37 seconds)
+   30% complete (ETR: 35 seconds)
+   40% complete (ETR: 24 seconds)
+   50% complete (ETR: 17 seconds)
+   60% complete (ETR: 12 seconds)
+   70% complete (ETR: 9 seconds)
+   80% complete (ETR: 5 seconds)
+   90% complete (ETR: 3 seconds)
+   100% complete (ETR: 0 seconds)
+   Compilation completed in 29,97 seconds
+Validating units:
+   [ERROR] Errors in 'file:/E:/workspace/prefaleague/src/org/ibertech/client/ui/ContactDetailsView.java'
+      [ERROR] Line 22: The import com.toedter cannot be resolved
+      [ERROR] Line 24: IContactDetailsView cannot be resolved to a type
+      [ERROR] Line 38: Contact cannot be resolved to a type
+      [ERROR] Line 48: The method setContact(Contact) of type ContactDetailsView must override or implement a supertype method
+      [ERROR] Line 48: Contact cannot be resolved to a type
+      [ERROR] Line 49: Contact cannot be resolved to a type
+      [ERROR] Line 63: The method setPresenter(Presenter) of type ContactDetailsView must override or implement a supertype method
+      [ERROR] Line 63: Presenter cannot be resolved to a type
+      [ERROR] Line 69: The method getContactEmail() of type ContactDetailsView must override or implement a supertype method
+      [ERROR] Line 74: The method clear() of type ContactDetailsView must override or implement a supertype method
+      [ERROR] Line 75: Contact cannot be resolved to a type
+      [ERROR] Line 85: Contact cannot be resolved to a type
+      [ERROR] Line 85: The method getContact() of type ContactDetailsView must override or implement a supertype method
+      [ERROR] Line 86: Contact cannot be resolved to a type
+      [ERROR] Line 87: Contact cannot be resolved to a type
+      [ERROR] Line 87: Contact cannot be resolved to a type
+      [ERROR] Line 90: Contact cannot be resolved to a type
+      [ERROR] Line 93: Contact cannot be resolved to a type
+      [ERROR] Line 96: Contact cannot be resolved to a type
+      [ERROR] Line 99: Contact cannot be resolved to a type
+      [ERROR] Line 100: Contact cannot be resolved to a type
+      [ERROR] Line 102: Contact cannot be resolved to a type
+      [ERROR] Line 103: Contact cannot be resolved to a type
+      [ERROR] Line 104: Contact cannot be resolved to a type
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,07 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,09 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361525746862.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361525746862.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361525746862_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361525752635.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361525752635.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361525752635_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,53 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361531055114.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361531055114.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361531055114_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,13 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,38 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361531203201.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361531203201.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,08 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361531203201_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,53 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361531203948.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361531203948.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,13 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361531203948_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,07 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,09 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361531281139.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361531281139.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361531281139_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,06 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361531379748.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361531379748.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361531379748_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361531383369.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361531383369.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361531383369_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,06 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361531383608.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361531383608.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361531383608_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361531401935.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361531401935.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,05 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361531401935_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Public resources found in...
+Translatable source found in...
+Found 0 cached/archived units.  Used 0 / 2755 units from cache.
+Compiling...
+   10% complete (ETR: 174 seconds)
+   10% complete (ETR: 173 seconds)
+   20% complete (ETR: 111 seconds)
+   30% complete (ETR: 73 seconds)
+   40% complete (ETR: 52 seconds)
+   50% complete (ETR: 35 seconds)
+   60% complete (ETR: 27 seconds)
+   70% complete (ETR: 18 seconds)
+   80% complete (ETR: 12 seconds)
+   90% complete (ETR: 5 seconds)
+   100% complete (ETR: 0 seconds)
+   Compilation completed in 58,53 seconds
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,28 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,05 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361531527032.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361531527032.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,08 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361531527032_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,05 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361531532120.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361531532120.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361531532120_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Public resources found in...
+Translatable source found in...
+Found 2737 cached/archived units.  Used 2737 / 2757 units from cache.
+Compiling...
+   Compilation completed in 0,22 seconds
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView.TeamListViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,07 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView_TeamListViewUiBinderImpl_designTime1361805152739.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamListView_TeamListViewUiBinderImpl_designTime1361805152739.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView_TeamListViewUiBinderImpl_designTime1361805152739_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView.TeamListViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView_TeamListViewUiBinderImpl_designTime1361805153688.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamListView_TeamListViewUiBinderImpl_designTime1361805153688.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView_TeamListViewUiBinderImpl_designTime1361805153688_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,18 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView.TeamListViewUiBinder
+   Invoking generator com.google.gwt.uibinder.rebind.UiBinderGenerator
+      [ERROR] Element must have a single child element: <ui:UiBinder> (:3)
+[ERROR] Deferred binding failed for 'org.ibertech.client.ui.TeamListView.TeamListViewUiBinder'; expect subsequent failures
+Public resources found in...
+Translatable source found in...
+Found 2756 cached/archived units.  Used 2756 / 2757 units from cache.
+Compiling...
+   Compilation completed in 0,01 seconds
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView.TeamListViewUiBinder
+   Invoking generator com.google.gwt.uibinder.rebind.UiBinderGenerator
+      [ERROR] Element must have a single child element: <ui:UiBinder> (:3)
+[ERROR] Deferred binding failed for 'org.ibertech.client.ui.TeamListView.TeamListViewUiBinder'; expect subsequent failures
+Public resources found in...
+Translatable source found in...
+Found 2757 cached/archived units.  Used 2757 / 2757 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView.TeamListViewUiBinder
+   Invoking generator com.google.gwt.uibinder.rebind.UiBinderGenerator
+      [ERROR] Unexpected text in element: "&gt;": <ui:UiBinder> (:3)
+[ERROR] Deferred binding failed for 'org.ibertech.client.ui.TeamListView.TeamListViewUiBinder'; expect subsequent failures
+Public resources found in...
+Translatable source found in...
+Found 2757 cached/archived units.  Used 2757 / 2757 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView.TeamListViewUiBinder
+   Invoking generator com.google.gwt.uibinder.rebind.UiBinderGenerator
+      [ERROR] Unexpected text in element: "&gt;": <ui:UiBinder> (:3)
+[ERROR] Deferred binding failed for 'org.ibertech.client.ui.TeamListView.TeamListViewUiBinder'; expect subsequent failures
+Public resources found in...
+Translatable source found in...
+Found 2757 cached/archived units.  Used 2757 / 2757 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView.TeamListViewUiBinder
+   Invoking generator com.google.gwt.uibinder.rebind.UiBinderGenerator
+      [ERROR] Unexpected text in element: "&gt;": <ui:UiBinder> (:3)
+[ERROR] Deferred binding failed for 'org.ibertech.client.ui.TeamListView.TeamListViewUiBinder'; expect subsequent failures
+Public resources found in...
+Translatable source found in...
+Found 2757 cached/archived units.  Used 2757 / 2757 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView.TeamListViewUiBinder
+   Invoking generator com.google.gwt.uibinder.rebind.UiBinderGenerator
+      [ERROR] Unexpected text in element: "&gt;": <ui:UiBinder> (:3)
+[ERROR] Deferred binding failed for 'org.ibertech.client.ui.TeamListView.TeamListViewUiBinder'; expect subsequent failures
+Public resources found in...
+Translatable source found in...
+Found 2757 cached/archived units.  Used 2757 / 2757 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView.TeamListViewUiBinder
+   Invoking generator com.google.gwt.uibinder.rebind.UiBinderGenerator
+      [ERROR] Unexpected text in element: "&gt;": <ui:UiBinder> (:3)
+[ERROR] Deferred binding failed for 'org.ibertech.client.ui.TeamListView.TeamListViewUiBinder'; expect subsequent failures
+Public resources found in...
+Translatable source found in...
+Found 2757 cached/archived units.  Used 2757 / 2757 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView.TeamListViewUiBinder
+   Invoking generator com.google.gwt.uibinder.rebind.UiBinderGenerator
+      [ERROR] Unexpected text in element: "&gt;": <ui:UiBinder> (:3)
+[ERROR] Deferred binding failed for 'org.ibertech.client.ui.TeamListView.TeamListViewUiBinder'; expect subsequent failures
+Public resources found in...
+Translatable source found in...
+Found 2757 cached/archived units.  Used 2757 / 2757 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView.TeamListViewUiBinder
+   Invoking generator com.google.gwt.uibinder.rebind.UiBinderGenerator
+      [ERROR] Unexpected text in element: "&gt;": <ui:UiBinder> (:3)
+[ERROR] Deferred binding failed for 'org.ibertech.client.ui.TeamListView.TeamListViewUiBinder'; expect subsequent failures
+Public resources found in...
+Translatable source found in...
+Found 2756 cached/archived units.  Used 2756 / 2757 units from cache.
+Compiling...
+   Compilation completed in 0,01 seconds
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView.TeamListViewUiBinder
+   Invoking generator com.google.gwt.uibinder.rebind.UiBinderGenerator
+      [ERROR] Unexpected text in element: "&gt;": <ui:UiBinder> (:3)
+[ERROR] Deferred binding failed for 'org.ibertech.client.ui.TeamListView.TeamListViewUiBinder'; expect subsequent failures
+Public resources found in...
+Translatable source found in...
+Found 2757 cached/archived units.  Used 2757 / 2757 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView.TeamListViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView_TeamListViewUiBinderImpl_designTime1361805373604.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamListView_TeamListViewUiBinderImpl_designTime1361805373604.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView_TeamListViewUiBinderImpl_designTime1361805373604_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView.TeamListViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView_TeamListViewUiBinderImpl_designTime1361805374194.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamListView_TeamListViewUiBinderImpl_designTime1361805374194.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView_TeamListViewUiBinderImpl_designTime1361805374194_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView.TeamListViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView_TeamListViewUiBinderImpl_designTime1361805383544.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamListView_TeamListViewUiBinderImpl_designTime1361805383544.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView_TeamListViewUiBinderImpl_designTime1361805383544_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView.TeamListViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView_TeamListViewUiBinderImpl_designTime1361805393489.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamListView_TeamListViewUiBinderImpl_designTime1361805393489.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView_TeamListViewUiBinderImpl_designTime1361805393489_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView.TeamListViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView_TeamListViewUiBinderImpl_designTime1361805398549.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamListView_TeamListViewUiBinderImpl_designTime1361805398549.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView_TeamListViewUiBinderImpl_designTime1361805398549_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView.TeamListViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView_TeamListViewUiBinderImpl_designTime1361805405792.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamListView_TeamListViewUiBinderImpl_designTime1361805405792.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView_TeamListViewUiBinderImpl_designTime1361805405792_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView.TeamListViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView_TeamListViewUiBinderImpl_designTime1361805410973.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamListView_TeamListViewUiBinderImpl_designTime1361805410973.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView_TeamListViewUiBinderImpl_designTime1361805410973_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView.TeamListViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView_TeamListViewUiBinderImpl_designTime1361805442785_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView.TeamListViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView_TeamListViewUiBinderImpl_designTime1361805442877_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView.TeamListViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView_TeamListViewUiBinderImpl_designTime1361805478055_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView.TeamListViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,15 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView_TeamListViewUiBinderImpl_designTime1361805485793_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView.TeamListViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView_TeamListViewUiBinderImpl_designTime1361805539673_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Public resources found in...
+Translatable source found in...
+Found 2756 cached/archived units.  Used 2756 / 2758 units from cache.
+Compiling...
+   Compilation completed in 0,01 seconds
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,07 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView2.TeamListView2UiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView2_TeamListView2UiBinderImpl_designTime1361806175960_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.cellview.client.CellTable.Resources
+   Invoking generator com.google.gwt.resources.rebind.context.InlineClientBundleGenerator
+      Preparing method cellTableFooterBackground
+         Adding image 'com.google.gwt.user.cellview.client.CellTable.Resources.cellTableFooterBackground'
+      Preparing method cellTableHeaderBackground
+         Adding image 'com.google.gwt.user.cellview.client.CellTable.Resources.cellTableHeaderBackground'
+      Preparing method cellTableLoading
+         Adding image 'com.google.gwt.user.cellview.client.CellTable.Resources.cellTableLoading'
+      Preparing method cellTableSelectedBackground
+         Adding image 'com.google.gwt.user.cellview.client.CellTable.Resources.cellTableSelectedBackground'
+      Preparing method cellTableSortAscending
+         Adding image 'com.google.gwt.user.cellview.client.CellTable.Resources.cellTableSortAscending'
+      Preparing method cellTableSortDescending
+         Adding image 'com.google.gwt.user.cellview.client.CellTable.Resources.cellTableSortDescending'
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.impl.ClippedImageImpl.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.gwt.user.client.ui.impl.ClippedImageImpl.Template
+         Generating method body for image()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.cellview.client.AbstractCellTable.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.gwt.user.cellview.client.AbstractCellTable.Template
+         Generating method body for div()
+         Generating method body for tbody()
+         Generating method body for td()
+         Generating method body for tdBothAlign()
+         Generating method body for tdHorizontalAlign()
+         Generating method body for tdVerticalAlign()
+         Generating method body for tfoot()
+         Generating method body for thead()
+         Generating method body for tr()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView2.TeamListView2UiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView2_TeamListView2UiBinderImpl_designTime1361806177173_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Public resources found in...
+Translatable source found in...
+Found 0 cached/archived units.  Used 0 / 2762 units from cache.
+Compiling...
+   30% complete (ETR: 12 seconds)
+   30% complete (ETR: 12 seconds)
+   30% complete (ETR: 12 seconds)
+   30% complete (ETR: 12 seconds)
+   40% complete (ETR: 9 seconds)
+   50% complete (ETR: 7 seconds)
+   60% complete (ETR: 5 seconds)
+   70% complete (ETR: 4 seconds)
+   80% complete (ETR: 3 seconds)
+   90% complete (ETR: 2 seconds)
+   100% complete (ETR: 0 seconds)
+   Compilation completed in 21,81 seconds
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView2.TeamListView2UiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,07 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView2_TeamListView2UiBinderImpl_designTime1361894697543_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.cellview.client.CellTable.Resources
+   Invoking generator com.google.gwt.resources.rebind.context.InlineClientBundleGenerator
+      Preparing method cellTableFooterBackground
+         Adding image 'com.google.gwt.user.cellview.client.CellTable.Resources.cellTableFooterBackground'
+      Preparing method cellTableHeaderBackground
+         Adding image 'com.google.gwt.user.cellview.client.CellTable.Resources.cellTableHeaderBackground'
+      Preparing method cellTableLoading
+         Adding image 'com.google.gwt.user.cellview.client.CellTable.Resources.cellTableLoading'
+      Preparing method cellTableSelectedBackground
+         Adding image 'com.google.gwt.user.cellview.client.CellTable.Resources.cellTableSelectedBackground'
+      Preparing method cellTableSortAscending
+         Adding image 'com.google.gwt.user.cellview.client.CellTable.Resources.cellTableSortAscending'
+      Preparing method cellTableSortDescending
+         Adding image 'com.google.gwt.user.cellview.client.CellTable.Resources.cellTableSortDescending'
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.impl.ClippedImageImpl.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.gwt.user.client.ui.impl.ClippedImageImpl.Template
+         Generating method body for image()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.cellview.client.AbstractCellTable.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.gwt.user.cellview.client.AbstractCellTable.Template
+         Generating method body for div()
+         Generating method body for tbody()
+         Generating method body for td()
+         Generating method body for tdBothAlign()
+         Generating method body for tdHorizontalAlign()
+         Generating method body for tdVerticalAlign()
+         Generating method body for tfoot()
+         Generating method body for thead()
+         Generating method body for tr()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView2.TeamListView2UiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamListView2_TeamListView2UiBinderImpl_designTime1361894704260_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Public resources found in...
+Translatable source found in...
+Found 0 cached/archived units.  Used 0 / 2762 units from cache.
+Compiling...
+   20% complete (ETR: 77 seconds)
+   20% complete (ETR: 77 seconds)
+   20% complete (ETR: 77 seconds)
+   30% complete (ETR: 63 seconds)
+   40% complete (ETR: 42 seconds)
+   50% complete (ETR: 29 seconds)
+   60% complete (ETR: 20 seconds)
+   70% complete (ETR: 13 seconds)
+   80% complete (ETR: 8 seconds)
+   90% complete (ETR: 4 seconds)
+   100% complete (ETR: 0 seconds)
+   Compilation completed in 44,00 seconds
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,09 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361962365382.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361962365382.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361962365382_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361962372728.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361962372728.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361962372728_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361962409670.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361962409670.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361962409670_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,07 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361962422215_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361962422381.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361962422381.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361962422381_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361962425449_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361962425523.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361962425523.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361962425523_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361962425716.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361962425716.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361962425716_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,09 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,06 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361962428064.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361962428064.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361962428064_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361962434057.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361962434057.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361962434057_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,11 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361962444825.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361962444825.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361962444825_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361962460214.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361962460214.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361962460214_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView.TeamDetailsViewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361962469998.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361962469998.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding org.ibertech.client.ui.TeamDetailsView_TeamDetailsViewUiBinderImpl_designTime1361962469998_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
