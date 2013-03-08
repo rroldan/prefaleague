@@ -23,6 +23,12 @@
   <inherits name="com.google.gwt.place.Place"/>
   <inherits name="com.google.gwt.i18n.I18N"/>
   <inherits name="org.hibernate.validator.HibernateValidator" />
+  
+  
+  <inherits name='com.google.gwt.junit.JUnit' />
+  <inherits name='com.google.gwt.user.theme.standard.Standard' />
+  <inherits name='com.github.gwtbootstrap.Bootstrap' />
+  
 	
   <!-- Specify the app entry point class.                         -->
   <entry-point class='org.ibertech.client.Prefaleague'/>

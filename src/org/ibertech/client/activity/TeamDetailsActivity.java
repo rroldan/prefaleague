@@ -14,6 +14,7 @@ package org.ibertech.client.activity;
 
 import java.util.Set;
 
+import javax.swing.border.Border;
 import javax.validation.ConstraintViolation;
 import javax.validation.Validation;
 import javax.validation.Validator;
@@ -108,13 +109,29 @@ public class TeamDetailsActivity extends AbstractActivity implements ITeamDetail
 		Validator validator = Validation.buildDefaultValidatorFactory().getValidator();
 		Set<ConstraintViolation<Team>> violations = validator.validate(team);
 		
+		if (!violations.isEmpty()) {
+		     // StringBuffer errorMessage = new StringBuffer();
+		      for (ConstraintViolation<Team> constraintViolation : violations) {
+//		        if (errorMessage.length() == 0) {
+//		          errorMessage.append('\n');
+//		        }
+		        //errorMessage.append(constraintViolation.getMessage());
+		        teamDetailsView.getlErrorName().setText(constraintViolation.getMessage());
+		        teamDetailsView.getTBTeamName().setStyleName(".gwt-TextBox");
+		        
+		      }
+		      //errorLabel.setText(errorMessage.toString());
+		      return;
+		}
+		
 		teamService.saveTeam(team, new AsyncCallback<Void>() {
-			
+				
 			@Override
 			public void onSuccess(Void result) {
 				System.out.println("Team saved");
 				clientFactory.setTeams(null);
 				clientFactory.getPlaceController().goTo(new TeamPlace(""));
+				
 			}
 
 			@Override
@@ -122,7 +139,6 @@ public class TeamDetailsActivity extends AbstractActivity implements ITeamDetail
 				System.err.println("Cannot save team");
 			}
 		});
-		
 		
 	}
 
@@ -150,4 +166,6 @@ public class TeamDetailsActivity extends AbstractActivity implements ITeamDetail
 		}
 		
 	}
+
+	
 }

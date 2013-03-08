@@ -16,10 +16,10 @@ public class Team implements Serializable{
 	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long teamId;
-	@NotNull
-	@Size (min = 1, message = "No puede ser blanco.")
+	@NotEmpty (message = "No puede ser blanco.")
+//	@Size (min = 1, message = "No puede ser blanco.")
 	private String teamName;
-	@NotNull (message = "No puede ser blanco.")
+	@NotEmpty (message = "No puede ser blanco.")
 	private String coach;
 	private String race;
 	private String numFebb;

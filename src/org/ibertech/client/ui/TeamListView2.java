@@ -1,18 +1,22 @@
 package org.ibertech.client.ui;
 
-import java.util.Comparator;
 import java.util.List;
 
 import org.ibertech.shared.Team;
 
+import com.github.gwtbootstrap.client.ui.ButtonCell;
+import com.github.gwtbootstrap.client.ui.CellTable;
+import com.github.gwtbootstrap.client.ui.Column;
+
+import com.github.gwtbootstrap.client.ui.SimplePager;
+import com.google.gwt.cell.client.FieldUpdater;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
-import com.google.gwt.user.cellview.client.CellTable;
-import com.google.gwt.user.cellview.client.TextColumn;
-import com.google.gwt.user.cellview.client.CellTable.Resources;
+
 import com.google.gwt.user.cellview.client.ColumnSortEvent.ListHandler;
 import com.google.gwt.user.cellview.client.HasKeyboardSelectionPolicy.KeyboardSelectionPolicy;
+import com.google.gwt.user.cellview.client.TextColumn;
 import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.IsWidget;
 import com.google.gwt.user.client.ui.Widget;
@@ -26,8 +30,10 @@ public class TeamListView2 extends Composite implements ITeamListView {
 			.create(TeamListView2UiBinder.class);
 
 	@UiField(provided = true)
-	CellTable<Team> cellTable = new CellTable<Team>(1000, (Resources) GWT.create(TableResources.class));
-
+	//CellTable<Team> cellTable = new CellTable<Team>(1000, (Resources) GWT.create(TableResources.class));
+	CellTable<Team> cellTable = new CellTable<Team>(4, GWT.<CellTable.SelectableResources>create(CellTable.SelectableResources.class));
+	SimplePager simplePager = new SimplePager();
+	
 	private List<Team> list;
 
 	private Presenter presenter;
@@ -92,6 +98,11 @@ public class TeamListView2 extends Composite implements ITeamListView {
 				// Make the first name column sortable.
 				clubColumn.setSortable(true);
 
+//				 Column<CompoundDataProxy, String> deleteColumn = new Column<MyDataProxy, String>(new ButtonCell()) {
+//						                 public String getValue(CompoundDataProxy c) {
+//						                     return "Delete";
+//						                 }
+//						             };
 				
 				// Add the columns.
 				cellTable.addColumn(teamNameColumn, "Nombre Equipo");
@@ -99,6 +110,7 @@ public class TeamListView2 extends Composite implements ITeamListView {
 				cellTable.addColumn(raceColumn, "Raza");
 				cellTable.addColumn(numfebbColumn, "N. FEBB");
 				cellTable.addColumn(clubColumn, "Club");
+				
 
 				// Create a data provider.
 				ListDataProvider<Team> dataProvider = new ListDataProvider<Team>();

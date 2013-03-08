@@ -27,7 +27,7 @@ public class TeamManager {
 	//private ITeamRepository teamsRepository;
 	public List<Team> listTeam;	
 	public TeamManager() {
-//		getTeams();
+		getTeams();
 //		EntityManager em = EMFService.get().createEntityManager();
 //		Team team = new Team();
 //		team.setTeamName("Prueba");
