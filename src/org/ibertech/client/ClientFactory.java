@@ -16,8 +16,10 @@ import java.util.List;
 
 import org.ibertech.client.ui.ITeamDetailsView;
 import org.ibertech.client.ui.ITeamListView;
+import org.ibertech.client.ui.ITeamNavbarView;
 import org.ibertech.client.ui.TeamDetailsView;
 import org.ibertech.client.ui.TeamListView2;
+import org.ibertech.client.ui.TeamNavbarView;
 import org.ibertech.shared.Team;
 
 import com.google.gwt.core.client.GWT;
@@ -33,7 +35,7 @@ public class ClientFactory implements IClientFactory {
 
 	private static final ITeamDetailsView teamDetailsView = new TeamDetailsView();
 
-	//private static final IToolBarView toolBarView = new ToolBarView();
+	private static final ITeamNavbarView teamNavbarView = new TeamNavbarView();
 
 	private final ITeamServiceAsync teamService = GWT.create(ITeamService.class);
 	private List<Team> teams;
@@ -76,5 +78,11 @@ public class ClientFactory implements IClientFactory {
 	@Override
 	public void setTeams(List<Team> teams) {
 		this.teams = teams;
+	}
+
+	@Override
+	public ITeamNavbarView getTeamNavbarView() {
+		// TODO Auto-generated method stub
+		return teamNavbarView;
 	}
 }

@@ -4,51 +4,60 @@
 	<ui:style>
 		
 	</ui:style>
-	 	
 	<g:HTMLPanel>
-		<g:AbsolutePanel height="271px" ui:field="apTeam">
-			<g:at left="10" top="10">
-				<b:Label text="Nombre del Equipo:" ui:field="lTeamName" width="122px" height="26px"/>
-			</g:at>
-			<g:at left="146" top="10">
-				<b:TextBox width="275px" height="18px" ui:field="tbTeamName" placeholder="Nombre del Equipo" ></b:TextBox>
-			</g:at>
-			<g:at left="10" top="50">
-				<b:Label width="122px" height="26px" text="Entrenador:" ui:field="lCoach"/>
-			</g:at>
-			<g:at left="146" top="50">
-				<b:TextBox width="275px" height="18px" ui:field="tbCoach" placeholder="Entrenador"></b:TextBox>
-			</g:at>
-			<g:at left="10" top="91">
-				<b:Label width="122px" height="32px" text="Raza:" ui:field="lRace"/>
-			</g:at>
-			<g:at left="10" top="133">
-				<b:Label width="122px" height="24px" text="Nº FEBB:" ui:field="lNumFebb"/>
-			</g:at>
-			<g:at left="10" top="177">
-				<b:Label width="122px" height="24px" text="Club:" ui:field="lClub"/>
-			</g:at>
-			<g:at left="146" top="133">
-				<b:TextBox width="275px" height="18px" ui:field="tbNumFebb"></b:TextBox>
-			</g:at>
-			<g:at left="146" top="177">
-				<b:TextBox width="275px" height="18px" ui:field="tbClub"></b:TextBox>
-			</g:at>
-			<g:at left="146" top="91">
-				<b:ListBox width="289px" height="36px" ui:field="cRace"></b:ListBox>
-			</g:at>
-			<g:at left="91" top="221">
-				<b:Button ui:field="bRegistration" text="Solicitar Inscripción" type="SUCCESS"></b:Button>
-			</g:at>
-			<g:at left="252" top="221">
-				<b:Button ui:field="bDelete" text="Borrar Equipo" width="121px" height="20px" type="DANGER"></b:Button>
-			</g:at>
-			<g:at left="439" top="10">
-				<b:Label width="203px" height="30px" ui:field="lErrorName" styleName="gwt-LabelError"/>
-			</g:at>
-			<g:at left="439" top="46">
-				<b:Label width="203px" height="30px" ui:field="lErrorCoach" styleName="gwt-LabelError"/>
-			</g:at>
-		</g:AbsolutePanel>
+		<g:FlowPanel ui:field="detailPanel">
+			<b:Legend>
+				Equipos
+			</b:Legend>
+
+			<b:Form type="HORIZONTAL">
+				<b:Fieldset>
+					<b:ControlGroup ui:field="groupNameControlGroup">
+						<b:ControlLabel>
+							<font color="red">*</font>
+							Nombre del Equipo:
+						</b:ControlLabel>
+
+						<b:Controls>
+							<b:TextBox ui:field="tbTeamName" placeholder="Nombre del Equipo"></b:TextBox>
+						</b:Controls>
+					</b:ControlGroup>
+
+					<b:ControlGroup>
+						<b:ControlLabel>Entrenador:</b:ControlLabel>
+						<b:Controls>
+							<b:TextBox ui:field="tbCoach" placeholder="Entrenador"></b:TextBox>
+						</b:Controls>
+					</b:ControlGroup>
+
+					<b:ControlGroup>
+						<b:ControlLabel>Raza:</b:ControlLabel>
+						<b:Controls>
+							<b:ListBox ui:field="cRace"></b:ListBox>
+						</b:Controls>
+					</b:ControlGroup>
+
+					<b:ControlGroup>
+						<b:ControlLabel>Nº FEBB:</b:ControlLabel>
+						<b:Controls>
+							<b:TextBox ui:field="tbNumFebb" placeholder="Nº FEBB"></b:TextBox>
+						</b:Controls>
+					</b:ControlGroup>
+
+					<b:ControlGroup>
+						<b:ControlLabel>Club:</b:ControlLabel>
+						<b:Controls>
+							<b:TextBox ui:field="tbClub" placeholder="Club"></b:TextBox>
+						</b:Controls>
+					</b:ControlGroup>
+					<b:ControlGroup>
+						<b:Controls>
+							<b:Button ui:field="bRegistration" text="Solicitar Inscripción"></b:Button>
+							<b:Button ui:field="bDelete" text="Borrar Equipo"></b:Button>
+						</b:Controls>
+					</b:ControlGroup>
+				</b:Fieldset>
+			</b:Form>
+		</g:FlowPanel>
 	</g:HTMLPanel>
 </ui:UiBinder> 

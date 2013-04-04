@@ -26,6 +26,9 @@ import com.google.gwt.event.shared.EventBus;
 import com.google.gwt.place.shared.Place;
 import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.ui.AcceptsOneWidget;
+import com.google.gwt.user.client.ui.DeckLayoutPanel;
+import com.google.gwt.user.client.ui.DockLayoutPanel;
+import com.google.gwt.user.client.ui.RootLayoutPanel;
 
 public class TeamListActivity extends AbstractActivity implements ITeamListView.Presenter {
 	private final IClientFactory clientFactory;
@@ -102,6 +105,11 @@ public class TeamListActivity extends AbstractActivity implements ITeamListView.
 	@Override
 	public void select(Team team) {
 		//System.out.println("ContactListActivity.select(): " + token + ":" + contact.getEmail());
+		
+		DockLayoutPanel dockLayoutPanel2 = (DockLayoutPanel)RootLayoutPanel.get().getWidget(0);
+		DeckLayoutPanel deckLayoutPanel = (DeckLayoutPanel)dockLayoutPanel2.getWidget(1);
+		deckLayoutPanel.showWidget(1);
+		
 		eventBus.fireEvent(new TeamViewEvent(team));
 //		if (token == null || (token != null && !token.equals(contact.getEmail()))) {
 //			goTo(new ContactPlace(contact.getEmail()));

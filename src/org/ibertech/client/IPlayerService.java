@@ -14,28 +14,24 @@ package org.ibertech.client;
 
 import java.util.List;
 
-import org.ibertech.client.ui.ITeamDetailsView;
-import org.ibertech.client.ui.ITeamListView;
-import org.ibertech.client.ui.ITeamNavbarView;
+import org.ibertech.shared.Player;
 import org.ibertech.shared.Team;
 
-import com.google.gwt.place.shared.PlaceController;
-import com.google.web.bindery.event.shared.EventBus;
+import com.google.gwt.user.client.rpc.RemoteService;
+import com.google.gwt.user.client.rpc.RemoteServiceRelativePath;
 
-public interface IClientFactory {
-	EventBus getEventBus();
 
-	PlaceController getPlaceController();
+@RemoteServiceRelativePath("player")
+public interface IPlayerService extends RemoteService {
+	
+	//List<Team> getAllTeam() throws IllegalArgumentException;
 
-	ITeamListView getTeamListView();
+	Player getPlayer(String name) throws IllegalArgumentException;
 
-	ITeamDetailsView getTeamDetailsView();
+	void addPlayer(Player player);
 
-	ITeamNavbarView getTeamNavbarView();
+	void deletePlayer(Player player);
 
-	ITeamServiceAsync getTeamService();
+	void savePlayer(Player player);
 
-	List<Team> getTeams();
-
-	void setTeams(List<Team> team);
-}
+	}

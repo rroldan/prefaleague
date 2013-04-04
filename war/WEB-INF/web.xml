@@ -11,17 +11,6 @@
 	</servlet-mapping>
 
 
-
-  <!-- Servlets 
-  <servlet>
-    <servlet-name>greetServlet</servlet-name>
-    <servlet-class>org.ibertech.server.GreetingServiceImpl</servlet-class>
-  </servlet>
-  
-  <servlet-mapping>
-    <servlet-name>greetServlet</servlet-name>
-    <url-pattern>/prefaleague/greet</url-pattern>
-  </servlet-mapping>-->
   
   <!-- Default page to serve -->
   <welcome-file-list>

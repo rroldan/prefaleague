@@ -2,6 +2,7 @@ package org.ibertech.client;
 
 import org.ibertech.client.mvp.AppPlaceHistoryMapper;
 import org.ibertech.client.mvp.CenterActivityMapper;
+import org.ibertech.client.mvp.NorthActivityMapper;
 import org.ibertech.client.mvp.SouthActivityMapper;
 import org.ibertech.client.place.TeamPlace;
 import com.google.gwt.activity.shared.ActivityManager;
@@ -13,6 +14,7 @@ import com.google.gwt.place.shared.Place;
 import com.google.gwt.place.shared.PlaceController;
 import com.google.gwt.place.shared.PlaceHistoryHandler;
 import com.google.gwt.user.client.ui.AcceptsOneWidget;
+import com.google.gwt.user.client.ui.DeckLayoutPanel;
 import com.google.gwt.user.client.ui.DockLayoutPanel;
 import com.google.gwt.user.client.ui.IsWidget;
 import com.google.gwt.user.client.ui.RootLayoutPanel;
@@ -42,15 +44,18 @@ public class Prefaleague implements EntryPoint {
 	
 	private final Place defaultPlace = new TeamPlace("");
 	private final DockLayoutPanel dockLayoutPanel = new DockLayoutPanel(Unit.EM);
-	private final SplitLayoutPanel splitLayoutPanel = new SplitLayoutPanel();
+	private final DeckLayoutPanel deckLayoutPanel = new DeckLayoutPanel();
+	//private final SplitLayoutPanel splitLayoutPanel = new SplitLayoutPanel();
 	private final SimplePanel centerPanel = new SimplePanel();
-	private final SimplePanel southPanel = new SimplePanel();
+	private final SimplePanel southPanel =  new SimplePanel();
+	private final SimplePanel northPanel =  new SimplePanel();
+	
 	
 	AcceptsOneWidget centerDisplay = new AcceptsOneWidget() {
 		@Override
 		public void setWidget(IsWidget activityWidget) {
 			Widget widget = Widget.asWidgetOrNull(activityWidget);
-			centerPanel.setVisible(widget != null);
+			//centerPanel.setVisible(widget != null);
 			centerPanel.setWidget(widget);
 		}
 	};
@@ -61,15 +66,25 @@ public class Prefaleague implements EntryPoint {
 		@Override
 		public void setWidget(IsWidget activityWidget) {
 			Widget widget = Widget.asWidgetOrNull(activityWidget);
-			if (widget == null) {
-				splitLayoutPanel.setWidgetSize(southPanel, 0);
-			} else {
-				splitLayoutPanel.setWidgetSize(southPanel, oldSize);
-			}
+		//	if (widget == null) {
+		//		splitLayoutPanel.setWidgetSize(southPanel, 0);
+		//	} else {
+		//		splitLayoutPanel.setWidgetSize(southPanel, oldSize);
+		//	}
 			southPanel.setVisible(widget != null);
 			southPanel.setWidget(widget);
 		}
 	};
+	
+	AcceptsOneWidget northDisplay = new AcceptsOneWidget() {
+		@Override
+		public void setWidget(IsWidget activityWidget) {
+			Widget widget = Widget.asWidgetOrNull(activityWidget);
+			northPanel.setVisible(widget != null);
+			northPanel.setWidget(widget);
+		}
+	};
+	
 
 	private IClientFactory clientFactory;
 
@@ -79,17 +94,31 @@ public class Prefaleague implements EntryPoint {
 	public void onModuleLoad() {
 		southPanel.setStyleName("greyBackground");
 		centerPanel.setStyleName("greyBackground");
+		northPanel.setStyleName("darkGreyBackground");
+		//centerPanel.setVisible(false);
 		
-		splitLayoutPanel.addSouth(southPanel, 223);
-		splitLayoutPanel.add(centerPanel);
-		splitLayoutPanel.setStyleName("gwt-SplitLayoutPanel");
+		//splitLayoutPanel.addWest(centerPanel, 128);
+		//splitLayoutPanel.addEast(southPanel,320);
+		//splitLayoutPanel.setStyleName("gwt-SplitLayoutPanel");
 		
-		dockLayoutPanel.add(splitLayoutPanel);
+		deckLayoutPanel.add(southPanel);
+		deckLayoutPanel.add(centerPanel);
+		deckLayoutPanel.showWidget(0);
+		dockLayoutPanel.addNorth(northPanel, 4.5);
+		//dockLayoutPanel.addSouth(centerPanel,50);
+		//dockLayoutPanel.add(southPanel);
+		dockLayoutPanel.add(deckLayoutPanel);
+		//dockLayoutPanel.add(splitLayoutPanel);
 		
 		clientFactory = GWT.create(IClientFactory.class);
 
 		EventBus eventBus = clientFactory.getEventBus();
 		PlaceController placeController = clientFactory.getPlaceController();
+		
+		ActivityMapper northActivityMapper = new NorthActivityMapper(clientFactory);
+		ActivityManager northActivityManager = new ActivityManager(northActivityMapper, eventBus);
+		northActivityManager.setDisplay(northDisplay);
+		
 		
 		// Start CenterActivityManager for the center widget with the
 		// CenterActivityMapper
@@ -103,12 +132,16 @@ public class Prefaleague implements EntryPoint {
 		ActivityManager southActivityManager = new ActivityManager(southActivityMapper, eventBus);
 		southActivityManager.setDisplay(southDisplay);
 		
+		
+		
+		
 		// Start PlaceHistoryHandler with our PlaceHistoryMapper
 		AppPlaceHistoryMapper historyMapper = GWT.create(AppPlaceHistoryMapper.class);
 		PlaceHistoryHandler historyHandler = new PlaceHistoryHandler(historyMapper);
 		historyHandler.register(placeController, eventBus, defaultPlace);
 
 		RootLayoutPanel.get().add(dockLayoutPanel);
+		
 
 		// Goes to place represented on URL or default place
 		historyHandler.handleCurrentHistory();

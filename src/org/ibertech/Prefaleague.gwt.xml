@@ -31,6 +31,7 @@
   
 	
   <!-- Specify the app entry point class.                         -->
+  <set-property name="bootstrap.responsiveDesign" value="true"/>
   <entry-point class='org.ibertech.client.Prefaleague'/>
   
   <replace-with class="org.ibertech.client.ClientFactory">

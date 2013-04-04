@@ -17,15 +17,18 @@ import org.ibertech.shared.RaceConstants;
 import org.ibertech.shared.Team;
 
 import com.github.gwtbootstrap.client.ui.Button;
+import com.github.gwtbootstrap.client.ui.ControlGroup;
 import com.github.gwtbootstrap.client.ui.Label;
 import com.github.gwtbootstrap.client.ui.ListBox;
 import com.github.gwtbootstrap.client.ui.TextBox;
+import com.github.gwtbootstrap.client.ui.constants.ControlGroupType;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.event.dom.client.ClickHandler;
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
 import com.google.gwt.user.client.ui.Composite;
+import com.google.gwt.user.client.ui.FlowPanel;
 import com.google.gwt.user.client.ui.Widget;
 
 
@@ -42,8 +45,9 @@ public class TeamDetailsView extends Composite implements ITeamDetailsView {
 	@UiField ListBox cRace;
 	@UiField Button bRegistration;
 	@UiField Button bDelete;
-	@UiField Label lErrorName;
-	@UiField Label lErrorCoach;
+	@UiField FlowPanel detailPanel;
+	@UiField ControlGroup groupNameControlGroup;
+	
 	
 	private Team team;
 	private Presenter presenter;
@@ -124,22 +128,20 @@ public class TeamDetailsView extends Composite implements ITeamDetailsView {
 		tbClub.setText("");
 		tbNumFebb.setText("");
 		cRace.setSelectedIndex(0);
-		lErrorName.setText("");
-		lErrorCoach.setText("");
-		
+		groupNameControlGroup.setType(ControlGroupType.NONE);
 		
 	}
 	
 	
-
-	public void setlErrorName(Label lErrorName) {
-		this.lErrorName = lErrorName;
+	public void panelOff() {
+		detailPanel.setVisible(false);
+		//detailPanel.setVisible(true);
+		//detailPanel.setPixelSize(200, 200);
+		
 	}
+	
 
-	public void setlErrorCoach(Label lErrorCoach) {
-		this.lErrorCoach = lErrorCoach;
-	}
-
+	
 	@Override
 	public String getTeamEmail() {
 		// TODO Auto-generated method stub
@@ -156,22 +158,10 @@ public class TeamDetailsView extends Composite implements ITeamDetailsView {
 			
 	}
 
-	@Override
-	public Label getlErrorName() {
-		// TODO Auto-generated method stub
-		return lErrorName;
-	}
 
-	@Override
-	public Label getlErrorCoach() {
-		// TODO Auto-generated method stub
-		return lErrorCoach;
-	}
 
-	@Override
-	public TextBox getTBTeamName() {
-		// TODO Auto-generated method stub
-		return tbTeamName;
+	public ControlGroup getGroupNameControlGroup() {
+		return groupNameControlGroup;
 	}
 
 	

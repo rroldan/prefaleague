@@ -26,6 +26,7 @@ import org.ibertech.client.place.TeamPlace;
 import org.ibertech.client.ui.ITeamDetailsView;
 import org.ibertech.shared.Team;
 
+import com.github.gwtbootstrap.client.ui.constants.ControlGroupType;
 import com.google.gwt.activity.shared.AbstractActivity;
 import com.google.gwt.event.shared.EventBus;
 import com.google.gwt.place.shared.Place;
@@ -70,6 +71,7 @@ public class TeamDetailsActivity extends AbstractActivity implements ITeamDetail
 			@Override
 			public void onTeamView(TeamViewEvent event) {
 				System.out.println("TeamDetailsActivity onContactView()");
+				teamDetailsView.clear();
 				teamDetailsView.setTeam(event.getTeam());
 			}
 		};
@@ -116,8 +118,11 @@ public class TeamDetailsActivity extends AbstractActivity implements ITeamDetail
 //		          errorMessage.append('\n');
 //		        }
 		        //errorMessage.append(constraintViolation.getMessage());
-		        teamDetailsView.getlErrorName().setText(constraintViolation.getMessage());
-		        teamDetailsView.getTBTeamName().setStyleName(".gwt-TextBox");
+		    	  
+		    	//  userNameControlGroup.setType(ControlGroupType.ERROR);
+				//	userNameHelpInline.setText("UserName should be input");  
+		        teamDetailsView.getGroupNameControlGroup().setType(ControlGroupType.ERROR);
+		        //teamDetailsView.getTBTeamName().setStyleName(".gwt-TextBox");
 		        
 		      }
 		      //errorLabel.setText(errorMessage.toString());

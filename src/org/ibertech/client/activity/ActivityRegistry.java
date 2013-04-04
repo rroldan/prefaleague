@@ -3,7 +3,7 @@ package org.ibertech.client.activity;
 public class ActivityRegistry {
 	private static TeamDetailsActivity teamDetailsActivity;
 	private static TeamListActivity teamListActivity;
-	//private static ToolBarActivity ToolbarActivity;
+    private static TeamNavbarActivity teamNavBarActivity;
 
 	public static TeamDetailsActivity getTeamDetailsActivity() {
 		return teamDetailsActivity;
@@ -13,19 +13,15 @@ public class ActivityRegistry {
 		ActivityRegistry.teamDetailsActivity = teamDetailsActivity;
 	}
 
-//	public static ContactListActivity getContactListActivity() {
-//		return contactListActivity;
-//	}
-//
 	public static void setTeamListActivity(TeamListActivity teamListActivity) {
 		ActivityRegistry.teamListActivity = teamListActivity;
 	}
-//
-//	public static ToolBarActivity getToolbarActivity() {
-//		return ToolbarActivity;
-//	}
-//
-//	public static void setToolbarActivity(ToolBarActivity toolbarActivity) {
-//		ToolbarActivity = toolbarActivity;
-//	}
+
+	public static TeamNavbarActivity getTeamNavbarActivity() {
+		return teamNavBarActivity;
+	}
+
+    public static void setToolbarActivity(TeamNavbarActivity teamNavbarActivity) {
+    	ActivityRegistry.teamNavBarActivity = teamNavbarActivity;
+	}
 }
