@@ -2,7 +2,9 @@ package org.ibertech.client;
 
 import org.ibertech.client.mvp.AppPlaceHistoryMapper;
 import org.ibertech.client.mvp.CenterActivityMapper;
+import org.ibertech.client.mvp.PlayerDetailsActivityMapper;
 import org.ibertech.client.mvp.NorthActivityMapper;
+import org.ibertech.client.mvp.PlayerListActivityMapper;
 import org.ibertech.client.mvp.SouthActivityMapper;
 import org.ibertech.client.place.TeamPlace;
 import com.google.gwt.activity.shared.ActivityManager;
@@ -45,11 +47,31 @@ public class Prefaleague implements EntryPoint {
 	private final Place defaultPlace = new TeamPlace("");
 	private final DockLayoutPanel dockLayoutPanel = new DockLayoutPanel(Unit.EM);
 	private final DeckLayoutPanel deckLayoutPanel = new DeckLayoutPanel();
+
+	
 	//private final SplitLayoutPanel splitLayoutPanel = new SplitLayoutPanel();
 	private final SimplePanel centerPanel = new SimplePanel();
 	private final SimplePanel southPanel =  new SimplePanel();
 	private final SimplePanel northPanel =  new SimplePanel();
+    private final SimplePanel playerListPanel = new SimplePanel();
+    private final SimplePanel playerDetailsPanel = new SimplePanel();
+    
+    AcceptsOneWidget playerListDisplay = new AcceptsOneWidget() {
+		@Override
+		public void setWidget(IsWidget activityWidget) {
+			Widget widget = Widget.asWidgetOrNull(activityWidget);
+			playerListPanel.setWidget(widget);
+		}
+	};
 	
+	AcceptsOneWidget playerDetailsDisplay = new AcceptsOneWidget() {
+		@Override
+		public void setWidget(IsWidget activityWidget) {
+			Widget widget = Widget.asWidgetOrNull(activityWidget);
+			playerDetailsPanel.setWidget(widget);
+		}
+		
+	};
 	
 	AcceptsOneWidget centerDisplay = new AcceptsOneWidget() {
 		@Override
@@ -103,6 +125,10 @@ public class Prefaleague implements EntryPoint {
 		
 		deckLayoutPanel.add(southPanel);
 		deckLayoutPanel.add(centerPanel);
+		
+		deckLayoutPanel.add(playerListPanel);
+		deckLayoutPanel.add(playerDetailsPanel);
+		
 		deckLayoutPanel.showWidget(0);
 		dockLayoutPanel.addNorth(northPanel, 4.5);
 		//dockLayoutPanel.addSouth(centerPanel,50);
@@ -131,6 +157,15 @@ public class Prefaleague implements EntryPoint {
 		ActivityMapper southActivityMapper = new SouthActivityMapper(clientFactory);
 		ActivityManager southActivityManager = new ActivityManager(southActivityMapper, eventBus);
 		southActivityManager.setDisplay(southDisplay);
+		
+		
+		ActivityMapper  playerListActivityMapper = new PlayerListActivityMapper(clientFactory);
+		ActivityManager playerListActivityManager = new ActivityManager(playerListActivityMapper, eventBus);
+		playerListActivityManager.setDisplay(playerListDisplay);
+		
+		ActivityMapper playerDetailsActivityMapper = new PlayerDetailsActivityMapper(clientFactory);
+		ActivityManager playerDetailsActivityManager = new ActivityManager(playerDetailsActivityMapper, eventBus);
+		playerDetailsActivityManager.setDisplay(playerDetailsDisplay);
 		
 		
 		

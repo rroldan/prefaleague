@@ -10,28 +10,31 @@
  *     Kai Toedter - initial API and implementation
  ******************************************************************************/
 
-package org.ibertech.client;
+package org.ibertech.client.ui;
 
 import java.util.List;
 
 import org.ibertech.shared.Player;
 import org.ibertech.shared.Team;
 
-import com.google.gwt.user.client.rpc.RemoteService;
-import com.google.gwt.user.client.rpc.RemoteServiceRelativePath;
+import com.google.gwt.place.shared.Place;
+import com.google.gwt.user.client.ui.AcceptsOneWidget;
+import com.google.gwt.user.client.ui.IsWidget;
 
+public interface IPlayerListView extends IsWidget, AcceptsOneWidget {
+	public interface Presenter {
+		void goTo(Place place);
 
-@RemoteServiceRelativePath("player")
-public interface IPlayerService extends RemoteService {
-	
-	List<Player> getAllPlayer() throws IllegalArgumentException;
-	
-	Player getPlayer(String name) throws IllegalArgumentException;
+		void select(int index);
 
-	void addPlayer(Player player);
-
-	void deletePlayer(Player player);
-
-	void savePlayer(Player player);
-
+		void select(Team team);
 	}
+
+	void setPresenter(Presenter presenter);
+
+	void selectInitialRow(int i);
+
+	void selectInitialTeam(Player player);
+
+	void initialize(List<Player> player);
+}

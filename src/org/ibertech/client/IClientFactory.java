@@ -14,9 +14,12 @@ package org.ibertech.client;
 
 import java.util.List;
 
+import org.ibertech.client.ui.IPlayerDetailsView;
+import org.ibertech.client.ui.IPlayerListView;
 import org.ibertech.client.ui.ITeamDetailsView;
 import org.ibertech.client.ui.ITeamListView;
 import org.ibertech.client.ui.ITeamNavbarView;
+import org.ibertech.shared.Player;
 import org.ibertech.shared.Team;
 
 import com.google.gwt.place.shared.PlaceController;
@@ -27,7 +30,7 @@ public interface IClientFactory {
 
 	PlaceController getPlaceController();
 
-	ITeamListView getTeamListView();
+	ITeamListView getTeamListView();	
 
 	ITeamDetailsView getTeamDetailsView();
 
@@ -36,6 +39,16 @@ public interface IClientFactory {
 	ITeamServiceAsync getTeamService();
 
 	List<Team> getTeams();
+	
+	IPlayerServiceAsync getPlayerService();
+	
+	IPlayerListView getPlayerListView();
+	
+	List<Player> getPlayer();
+	
+	void setPlayers(List<Player> player);
+	
+	IPlayerDetailsView getPlayerDetailsView();
 
 	void setTeams(List<Team> team);
 }

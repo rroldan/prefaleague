@@ -95,5 +95,10 @@ public class PlayerManager {
 		}
 		return -1;
 	}
-
+	
+	
+	public List<Player> getAllPlayer() {
+		return null;
+	}
+	
 }

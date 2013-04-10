@@ -67,5 +67,11 @@ public class PlayerService extends RemoteServiceServlet implements IPlayerServic
 		// TODO Auto-generated method stub
 		
 	}
+	
+	
+	@Override
+	public List<Player> getAllPlayer() throws IllegalArgumentException {
+		return playerManager.getAllPlayer();
+	}
 
 }
