@@ -1,5 +1,7 @@
 package org.ibertech.shared;
 
+import java.io.Serializable;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -9,7 +11,7 @@ import javax.persistence.ManyToOne;
 import org.hibernate.validator.constraints.NotEmpty;
 
 @Entity
-public class Player {
+public class Player implements Serializable {
 
 	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -22,23 +24,12 @@ public class Player {
 	private String skills;
 	
 	@NotEmpty (message = "No puede haber jugador sin equipo")
+	@ManyToOne
 	private Team team;
 	
 	public Long getPlayerId() {
 		return playerId;
 	}
-
-	
-	@ManyToOne
-	  public Team getFamily() {
-	    return team;
-	  }
-
-	
-	
-	public void setFamily(Team team) {
-	    this.team = team;
-	  }
 
 	public String getName() {
 		return name;
