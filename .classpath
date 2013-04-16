@@ -11,5 +11,6 @@
 	<classpathentry kind="lib" path="war/WEB-INF/lib/hibernate-validator-4.1.0.Final-sources.jar"/>
 	<classpathentry kind="lib" path="war/WEB-INF/lib/gwt-bootstrap-2.2.1.0-SNAPSHOT.jar"/>
 	<classpathentry kind="con" path="com.google.appengine.eclipse.core.GAE_CONTAINER/v2"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/3"/>
 	<classpathentry kind="output" path="war/WEB-INF/classes"/>
 </classpath>
