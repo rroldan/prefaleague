@@ -23,33 +23,14 @@ import javax.persistence.Query;
 import org.ibertech.shared.Team;
 
 public class TeamManager {
-	//private Hashtable<String, Team> teams = new Hashtable<String, Team>();
-	//private ITeamRepository teamsRepository;
-	public List<Team> listTeam;	
+	
 	public TeamManager() {
-		getTeams();
-//		EntityManager em = EMFService.get().createEntityManager();
-//		Team team = new Team();
-//		team.setTeamName("Prueba");
-//		team.setCoach("yo");
-//		team.setRace("No Muertos");
-//		team.setNumFebb("1111");
-//		team.setClub("Prueba");
-//		 try {
-//	            em.persist(team);
-//	            
-//	        } finally {
-//	            em.close();
-//	        }
-	 
-		//teams.put("yo", team);
-//		teamsRepository = TeamsRepositoryFactory.getTeamsRepository();
-//		teams = teamsRepository.getAllTeam();
-		//teams = new ArrayList<Team>();
+
 		
 	}
 
 	public List<Team> getTeams() {
+	    List<Team> listTeam;
 		EntityManager em = EMFService.get().createEntityManager();
 		 try {
 	           Query q = em.createQuery("select t from Team t");
@@ -61,19 +42,12 @@ public class TeamManager {
 		return listTeam;
 	}
 
-//	public void addContact(Contact contact) {
-//		contactsRepository.addContact(contact);
-//		saveContact(contact);
-//	}
 
 	public void saveTeam(Team team) {
 		EntityManager em = EMFService.get().createEntityManager();
 		if(team.getTeamId() != null){
-			try {
-				//em.getTransaction().begin();
-				em.merge(team);
-				//em.getTransaction().commit();
-					            
+			try {			
+				em.merge(team);		            
 	        } finally {
 	            em.close();
 	        }
@@ -86,10 +60,8 @@ public class TeamManager {
 	        }
 		}
 		
-		//teams.put(team.getCoach(),team);
 		System.out.println(team);
-			//		teamsRepository.saveTeam(team);
-			//		teams = teamsRepository.getAllTeam();
+			
 	}
 
 	public void deleteTeam(Team team) {
@@ -103,18 +75,14 @@ public class TeamManager {
         	em.close(); //Cuando no hay transacciones.
         }
 				
-		//teams.remove(team.getCoach());
 		System.out.println(team);
-//		Team originalTeam = getTeamByCoach(team.getCoach());
-//		if (originalTeam != null) {
-//			teamsRepository.removeTeam(originalTeam);
-//			teams = teamsRepository.getAllTeam();
-//		}
+
 		
 	}
 
 	public int getTeamIndex(Team team) {
 		int i = 0;
+		List<Team> listTeam = getTeams();
 		for (Team teamLoop : listTeam) {
 			if (teamLoop.getTeamId() == team.getTeamId()) {
 				return i;
@@ -124,22 +92,6 @@ public class TeamManager {
 		return -1;
 	}
 
-//	public Contact getContactByEmail(String email) {
-//		for (Contact contact : contacts) {
-//			if (email.equals(contact.getEmail())) {
-//				return contact;
-//			}
-//		}
-//		return null;
-//	}
-//
-//	public Team getTeamByCoach(String coach) {
-//		for (Team team : teams.values()) {
-//			if (coach.equals(team.getCoach())) {
-//				return team;
-//			}
-//		}
-//		return null;
-//	}
+
 
 }

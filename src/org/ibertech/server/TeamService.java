@@ -34,16 +34,6 @@ public class TeamService extends RemoteServiceServlet implements ITeamService {
 		return teamManager.getTeams();
 	}
 
-//	@Override
-//	public Contact getContact(String email) throws IllegalArgumentException {
-//		return contactManager.getContactByEmail(email);
-//	}
-
-//	@Override
-//	public void addContact(Contact contact) {
-//		contactManager.addContact(contact);
-//	}
-
 	@Override
 	public void saveTeam(Team team) {
 		teamManager.saveTeam(team);
@@ -66,9 +56,4 @@ public class TeamService extends RemoteServiceServlet implements ITeamService {
 		teamManager.deleteTeam(team);
 		
 	}
-
-//	@Override
-//	public void deleteContact(Contact contact) {
-//		contactManager.deleteContact(contact);
-//	}
 }
