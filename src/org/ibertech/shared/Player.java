@@ -2,20 +2,26 @@ package org.ibertech.shared;
 
 import java.io.Serializable;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 
+import org.datanucleus.api.jpa.annotations.Extension;
 import org.hibernate.validator.constraints.NotEmpty;
+
+import com.google.appengine.api.datastore.Key;
 
 @Entity
 public class Player implements Serializable {
 
 	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long playerId;
+	private Key playerId;
 	
 	
 	@NotEmpty (message = "No puede ser blanco.")
@@ -23,15 +29,15 @@ public class Player implements Serializable {
 	private String position;
 	private String skills;
 	
-	@NotEmpty (message = "No puede haber jugador sin equipo")
-	@ManyToOne
+
+	@ManyToOne(fetch = FetchType.LAZY)
 	private Team team;
 	
-	public Long getPlayerId() {
+	public Key getPlayerId() {
 		return playerId;
 	}
 
-	public String getName() {
+	public String getName() { 
 		return name;
 	}
 
@@ -55,13 +61,13 @@ public class Player implements Serializable {
 		this.skills = skills;
 	}
 
-	public Team getTeam() {
+   public Team getTeam() {
 		return team;
-	}
+   }
 
-	public void setTeam(Team team) {
+   public void setTeam(Team team) {
 		this.team = team;
-	}
+   }
 
 	  
 	  

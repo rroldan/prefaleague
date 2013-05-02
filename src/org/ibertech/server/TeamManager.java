@@ -20,6 +20,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.FlushModeType;
 import javax.persistence.Query;
 
+import org.ibertech.shared.Player;
 import org.ibertech.shared.Team;
 
 public class TeamManager {
@@ -35,6 +36,9 @@ public class TeamManager {
 		 try {
 	           Query q = em.createQuery("select t from Team t");
 	           listTeam = new ArrayList<Team>(q.getResultList());
+	           for (Team teamLoop : listTeam) {
+	        	   teamLoop.getPlayers();
+	           }
 	        } finally {
 	            em.close();
 	        }
@@ -84,7 +88,7 @@ public class TeamManager {
 		int i = 0;
 		List<Team> listTeam = getTeams();
 		for (Team teamLoop : listTeam) {
-			if (teamLoop.getTeamId() == team.getTeamId()) {
+			if (teamLoop.getTeamId().equals(team.getTeamId())) {
 				return i;
 			}
 			i++;

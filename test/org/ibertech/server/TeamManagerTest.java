@@ -17,13 +17,9 @@ import com.google.appengine.tools.development.testing.LocalDatastoreServiceTestC
 import com.google.appengine.tools.development.testing.LocalServiceTestHelper;
 
 
-public class TeamManagerTest {
+public class TeamManagerTest extends Fixture {
 	
-	 public static final String CLUB = "club";
-	 public static final String COACH = "coach";
-	 public static final String NUMFEBB = "numFebb";
-	 public static final String RACE = "race";
-	 public static final String TEAM_NAME = "teamName";
+	 
 	 public static final int ZERO = 0;
 	 
 	 private final LocalServiceTestHelper helper =
@@ -43,35 +39,7 @@ public class TeamManagerTest {
 	        helper.tearDown();
 	    }
 
-	 @Parameters
-	 public static Hashtable<String,Team> data() {
-		 Hashtable<String,Team> teamFixture = new Hashtable<String,Team>();
-		 Team teamOk = new Team();
-		 teamOk.setClub(CLUB);
-		 teamOk.setCoach(COACH);
-		 teamOk.setNumFebb(NUMFEBB);
-		 teamOk.setRace(RACE);
-		 teamOk.setTeamName(TEAM_NAME);
-		 
-		 Team teamNullTeamName = new Team();
-		 teamOk.setClub(CLUB);
-		 teamOk.setCoach(COACH);
-		 teamOk.setNumFebb(NUMFEBB);
-		 teamOk.setRace(RACE);
-		 
-		 Team teamNullCoach = new Team();
-		 teamOk.setClub(CLUB);
-		 teamOk.setNumFebb(NUMFEBB);
-		 teamOk.setRace(RACE);
-		 teamOk.setTeamName(TEAM_NAME);
-	
-		 
-		 teamFixture.put("teamOK",teamOk);
-		 teamFixture.put("teamNullTeamName",teamNullTeamName);
-		 teamFixture.put("teamNullCoach",teamNullCoach);
-		 
-		 return teamFixture;
-	 }
+	 
 
 	@Test
 	public void testGetTeams() {		
@@ -82,25 +50,25 @@ public class TeamManagerTest {
 	
 	@Test
 	public void testSaveTeam(){
-		teamManager.saveTeam(data().get("teamOK"));	
+		teamManager.saveTeam(dataTeam().get("teamOK"));	
 		List<Team> teams = teamManager.getTeams();
 		Team  team = teams.get(0);
-		assertEquals(CLUB, team.getClub());
-		assertEquals(COACH, team.getCoach());
-		assertEquals(NUMFEBB, team.getNumFebb());
-		assertEquals(RACE, team.getRace());
-		assertEquals(TEAM_NAME, team.getTeamName());
+		assertEquals(TEAM_CLUB, team.getClub());
+		assertEquals(TEAM_COACH, team.getCoach());
+		assertEquals(TEAM_NUMFEBB, team.getNumFebb());
+		assertEquals(TEAM_RACE, team.getRace());
+		assertEquals(TEAM_TEAM_NAME, team.getTeamName());
 
 	}
 	
 	@Test(expected = ConstraintViolationException.class)
 	public void testSaveTeamNullTeamName(){
-		teamManager.saveTeam(data().get("teamNullTeamName"));	
+		teamManager.saveTeam(dataTeam().get("teamNullTeamName"));	
 	}
 	
 	@Test(expected = ConstraintViolationException.class)
 	public void testSaveTeamNullCoach(){
-		teamManager.saveTeam(data().get("teamNullCoach"));	
+		teamManager.saveTeam(dataTeam().get("teamNullCoach"));	
 	}
 	
 	@Test
@@ -124,7 +92,7 @@ public class TeamManagerTest {
 	}
 	
 	private Team addTeam(){
-		Team  team = data().get("teamOK");
+		Team  team = dataTeam().get("teamOK");
 		teamManager.saveTeam(team);
 		return team;
 	}

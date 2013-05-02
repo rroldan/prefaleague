@@ -1,9 +1,10 @@
-package org.ibertech.shared;
+package org.ibertech.shared; 
 
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -12,13 +13,16 @@ import javax.persistence.OneToMany;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
+import org.datanucleus.api.jpa.annotations.Extension;
 import org.hibernate.validator.constraints.NotEmpty;
 
+import com.google.appengine.api.datastore.Key;
+ 
 @Entity
 public class Team implements Serializable{
 	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long teamId;
+    private Key teamId;
 	@NotEmpty (message = "No puede ser blanco.")
 //	@Size (min = 1, message = "No puede ser blanco.")
 	private String teamName;
@@ -28,11 +32,11 @@ public class Team implements Serializable{
 	private String numFebb;
 	private String club;
 	
-	@OneToMany(mappedBy = "Player")
-	private final List<Player> players = new ArrayList<Player>();
+	@OneToMany(mappedBy = "team",cascade = CascadeType.ALL)
+	private List<Player> players = new ArrayList<Player>();
  
 	
-	public Long getTeamId(){
+	public Key getTeamId(){
 		return teamId;
 	}
 	public String getTeamName() {

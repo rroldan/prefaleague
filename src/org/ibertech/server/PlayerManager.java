@@ -28,7 +28,7 @@ public class PlayerManager {
 	public List<Player> listPlayer;	
 	
 	public PlayerManager() {
-		getPlayer();
+		
 	}
 
 	public List<Player> getPlayer() {
@@ -36,6 +36,10 @@ public class PlayerManager {
 		 try {
 	           Query q = em.createQuery("select t from Player t");
 	           listPlayer = new ArrayList<Player>(q.getResultList());
+	           for (Player playerLoop : listPlayer) {
+	        	   playerLoop.getTeam();
+	           }
+	           
 	        } finally {
 	            em.close();
 	        }
