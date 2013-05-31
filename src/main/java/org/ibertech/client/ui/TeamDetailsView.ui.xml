@@ -1,0 +1,63 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:b="urn:import:com.github.gwtbootstrap.client.ui">
+	<ui:style>
+		
+	</ui:style>
+	<g:HTMLPanel>
+		<g:FlowPanel ui:field="detailPanel">
+			<b:Legend>
+				Equipos
+			</b:Legend>
+
+			<b:Form type="HORIZONTAL">
+				<b:Fieldset>
+					<b:ControlGroup ui:field="groupNameControlGroup">
+						<b:ControlLabel>
+							<font color="red">*</font>
+							Nombre del Equipo:
+						</b:ControlLabel>
+
+						<b:Controls>
+							<b:TextBox ui:field="tbTeamName" placeholder="Nombre del Equipo"></b:TextBox>
+						</b:Controls>
+					</b:ControlGroup>
+
+					<b:ControlGroup>
+						<b:ControlLabel>Entrenador:</b:ControlLabel>
+						<b:Controls>
+							<b:TextBox ui:field="tbCoach" placeholder="Entrenador"></b:TextBox>
+						</b:Controls>
+					</b:ControlGroup>
+
+					<b:ControlGroup>
+						<b:ControlLabel>Raza:</b:ControlLabel>
+						<b:Controls>
+							<b:ListBox ui:field="cRace"></b:ListBox>
+						</b:Controls>
+					</b:ControlGroup>
+
+					<b:ControlGroup>
+						<b:ControlLabel>Nº FEBB:</b:ControlLabel>
+						<b:Controls>
+							<b:TextBox ui:field="tbNumFebb" placeholder="Nº FEBB"></b:TextBox>
+						</b:Controls>
+					</b:ControlGroup>
+
+					<b:ControlGroup>
+						<b:ControlLabel>Club:</b:ControlLabel>
+						<b:Controls>
+							<b:TextBox ui:field="tbClub" placeholder="Club"></b:TextBox>
+						</b:Controls>
+					</b:ControlGroup>
+					<b:ControlGroup>
+						<b:Controls>
+							<b:Button ui:field="bRegistration" text="Solicitar Inscripción"></b:Button>
+							<b:Button ui:field="bDelete" text="Borrar Equipo"></b:Button>
+						</b:Controls>
+					</b:ControlGroup>
+				</b:Fieldset>
+			</b:Form>
+		</g:FlowPanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 
