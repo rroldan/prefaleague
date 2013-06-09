@@ -13,24 +13,19 @@
 package org.ibertech.server;
 
 import java.util.ArrayList;
-import java.util.Hashtable;
 import java.util.List;
-
 import javax.persistence.EntityManager;
-import javax.persistence.FlushModeType;
 import javax.persistence.Query;
-
-import org.ibertech.shared.Player;
+import org.apache.log4j.Logger;
 import org.ibertech.shared.Team;
 
 public class TeamManager {
+	private static org.apache.log4j.Logger log = Logger.getLogger(TeamManager.class.getName());
 	
-	public TeamManager() {
-
-		
-	}
+	
 
 	public List<Team> getTeams() {
+		log.debug("Init: TeamManager.getTeams()");
 	    List<Team> listTeam;
 		EntityManager em = EMFService.get().createEntityManager();
 		 try {
@@ -64,7 +59,7 @@ public class TeamManager {
 	        }
 		}
 		
-		System.out.println(team);
+		log.debug(team);
 			
 	}
 
@@ -79,7 +74,7 @@ public class TeamManager {
         	em.close(); //Cuando no hay transacciones.
         }
 				
-		System.out.println(team);
+		log.debug(team);
 
 		
 	}

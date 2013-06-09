@@ -13,6 +13,8 @@
 package org.ibertech.client.activity;
 
 import java.util.Set;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 import javax.swing.border.Border;
 import javax.validation.ConstraintViolation;
@@ -40,6 +42,8 @@ import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.ui.AcceptsOneWidget;
 
 public class PlayerDetailsActivity extends AbstractActivity implements IPlayerDetailsView.Presenter {
+	
+	Logger logger = Logger.getLogger("");
 
 	private final IClientFactory clientFactory;
 	private EventBus eventBus;
@@ -52,19 +56,19 @@ public class PlayerDetailsActivity extends AbstractActivity implements IPlayerDe
 		this.clientFactory = clientFactory;
 		token = place.getToken();
 		this.place = place;
-		System.out.println("TeamDetailsActivity.TeamDetailsActivity() token: " + token);
+		logger.log(Level.FINE, "PlayerDetailsActivity.PlayerDetailsActivity() token: " + token);
 	}
 
 	public PlayerDetailsActivity(PlayerEditPlace place, IClientFactory clientFactory) {
 		this.clientFactory = clientFactory;
 		token = place.getToken();
 		this.place = place;
-		System.out.println("TeamDetailsActivity.TeamDetailsActivity() token: " + token);
+		logger.log(Level.FINE, "PlayerDetailsActivity.PlayerDetailsActivity() token: " + token);
 	}
 
 	
 	public void start(AcceptsOneWidget containerWidget, EventBus eventBus) {
-		System.out.println("TeamDetailsActivity.start()");
+		System.out.println("PlayerDetailsActivity.start()");
 		ActivityRegistry.setPlayerDetailsActivity(this);
 		playerDetailsView = clientFactory.getPlayerDetailsView();
 		this.eventBus = eventBus;
@@ -98,7 +102,7 @@ public class PlayerDetailsActivity extends AbstractActivity implements IPlayerDe
 	 */
 	
 	public void goTo(Place place) {
-		System.out.println("TeamDetailsActivity.goTo()");
+		logger.log(Level.FINE, "PlayerDetailsActivity.goTo()");
 		clientFactory.getPlaceController().goTo(place);
 	}
 
@@ -110,7 +114,7 @@ public class PlayerDetailsActivity extends AbstractActivity implements IPlayerDe
 	
 	public void savePlayer() {
 		// TODO Auto-generated method stub
-		System.out.println("Funciona el b�ton");
+		logger.log(Level.FINE, "Funciona el b�ton");
 		IPlayerServiceAsync playerService = clientFactory.getPlayerService();
 		Player player = getPlayer();
 		
@@ -139,7 +143,7 @@ public class PlayerDetailsActivity extends AbstractActivity implements IPlayerDe
 				
 			
 			public void onSuccess(Void result) {
-				System.out.println("Player saved");
+				logger.log(Level.FINE, "Player saved");
 				clientFactory.setTeams(null);
 				clientFactory.getPlaceController().goTo(new PlayerPlace(""));
 				
@@ -147,7 +151,7 @@ public class PlayerDetailsActivity extends AbstractActivity implements IPlayerDe
 
 			
 			public void onFailure(Throwable caught) {
-				System.err.println("Cannot save team");
+				logger.log(Level.FINE, "Cannot save team");
 			}
 		});
 		
@@ -155,7 +159,7 @@ public class PlayerDetailsActivity extends AbstractActivity implements IPlayerDe
 
 	
 	public void deltePlayer() {
-		System.out.println("TeamDetailsActivity.deleteTeam()");
+		logger.log(Level.FINE, "TeamDetailsActivity.deleteTeam()");
 		PlayerDetailsActivity playerDetailsActivity = ActivityRegistry.getPlayerDetailsActivity();
 		if (playerDetailsActivity != null) {
 			final Player player = playerDetailsActivity.getPlayer();
@@ -164,7 +168,7 @@ public class PlayerDetailsActivity extends AbstractActivity implements IPlayerDe
 
 				
 				public void onSuccess(Void result) {
-					System.out.println("Team deleted");
+					logger.log(Level.FINE, "Team deleted");
 					clientFactory.setTeams(null);
 					clientFactory.getPlaceController().goTo(new TeamPlace(""));
 				}

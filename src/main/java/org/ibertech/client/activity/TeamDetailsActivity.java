@@ -13,6 +13,8 @@
 package org.ibertech.client.activity;
 
 import java.util.Set;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 import javax.swing.border.Border;
 import javax.validation.ConstraintViolation;
@@ -34,6 +36,8 @@ import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.ui.AcceptsOneWidget;
 
 public class TeamDetailsActivity extends AbstractActivity implements ITeamDetailsView.Presenter {
+	
+	private Logger logger = Logger.getLogger("");
 
 	private final IClientFactory clientFactory;
 	private EventBus eventBus;
@@ -46,7 +50,7 @@ public class TeamDetailsActivity extends AbstractActivity implements ITeamDetail
 		this.clientFactory = clientFactory;
 		token = place.getToken();
 		this.place = place;
-		System.out.println("TeamDetailsActivity.TeamDetailsActivity() token: " + token);
+		logger.log(Level.FINE,"TeamDetailsActivity.TeamDetailsActivity() token: " + token);
 	}
 
 	public TeamDetailsActivity(TeamEditPlace place, IClientFactory clientFactory) {
