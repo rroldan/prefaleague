@@ -1,5 +1,7 @@
 package org.ibertech.client.ui;
 
+import com.github.gwtbootstrap.client.ui.TextBox;
+import com.google.gwt.uibinder.client.UiField;
 import org.ibertech.shared.Player;
 
 import com.github.gwtbootstrap.client.ui.ControlGroup;
@@ -10,8 +12,12 @@ import com.google.gwt.user.client.ui.Widget;
 
 public class PlayerDetailsView extends Composite implements IPlayerDetailsView {
 
-	private static PlayerDetailsUiBinder uiBinder = GWT
-			.create(PlayerDetailsUiBinder.class);
+
+
+    private static PlayerDetailsUiBinder uiBinder = GWT.create(PlayerDetailsUiBinder.class);
+
+    private Presenter presenter;
+    @UiField TextBox tbPlayerName;
 
 	interface PlayerDetailsUiBinder extends UiBinder<Widget, PlayerDetailsView> {
 	}
@@ -34,8 +40,8 @@ public class PlayerDetailsView extends Composite implements IPlayerDetailsView {
 
 	
 	public void setPresenter(Presenter presenter) {
-		// TODO Auto-generated method stub
-		
+
+        this.presenter = presenter;
 	}
 
 	

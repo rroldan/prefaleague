@@ -31,6 +31,7 @@ import org.ibertech.client.place.TeamEditPlace;
 import org.ibertech.client.place.TeamPlace;
 import org.ibertech.client.ui.IPlayerDetailsView;
 import org.ibertech.client.ui.ITeamDetailsView;
+import org.ibertech.client.ui.ITeamNavbarView;
 import org.ibertech.shared.Player;
 import org.ibertech.shared.Team;
 
@@ -41,7 +42,7 @@ import com.google.gwt.place.shared.Place;
 import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.ui.AcceptsOneWidget;
 
-public class PlayerDetailsActivity extends AbstractActivity implements IPlayerDetailsView.Presenter {
+public class PlayerDetailsActivity extends AbstractActivity  implements IPlayerDetailsView.Presenter {
 	
 	Logger logger = Logger.getLogger("");
 
@@ -66,17 +67,24 @@ public class PlayerDetailsActivity extends AbstractActivity implements IPlayerDe
 		logger.log(Level.FINE, "PlayerDetailsActivity.PlayerDetailsActivity() token: " + token);
 	}
 
+    public PlayerDetailsActivity(TeamPlace place, IClientFactory clientFactory) {
+        this.clientFactory = clientFactory;
+        token = place.getToken();
+        this.place = place;
+        logger.log(Level.FINE, "PlayerDetailsActivity.PlayerDetailsActivity() token: " + token);
+    }
+
 	
 	public void start(AcceptsOneWidget containerWidget, EventBus eventBus) {
-		System.out.println("PlayerDetailsActivity.start()");
+		logger.log(Level.FINE,"PlayerDetailsActivity.start()");
 		ActivityRegistry.setPlayerDetailsActivity(this);
 		playerDetailsView = clientFactory.getPlayerDetailsView();
 		this.eventBus = eventBus;
 		playerDetailsView.setPresenter(this);
-		if (place instanceof PlayerEditPlace || (place instanceof PlayerPlace && token.length() == 0)) {
+		if (place instanceof PlayerEditPlace || (place instanceof TeamPlace && token.length() == 0)) {
 			playerDetailsView.clear();
 		}
-		handler = new PlayerViewEvent.Handler() {
+		/*handler = new PlayerViewEvent.Handler() {
 
 			
 			public void onPlayerView(PlayerViewEvent event) {
@@ -84,8 +92,8 @@ public class PlayerDetailsActivity extends AbstractActivity implements IPlayerDe
 				playerDetailsView.clear();
 				playerDetailsView.setPlayer(event.getPlayer());
 			}
-		};
-		this.eventBus.addHandler(PlayerViewEvent.TYPE, handler);
+		};*/
+		//this.eventBus.addHandler(PlayerViewEvent.TYPE, handler);
 
 		containerWidget.setWidget(playerDetailsView.asWidget());
 	}
@@ -97,9 +105,7 @@ public class PlayerDetailsActivity extends AbstractActivity implements IPlayerDe
 		return null;
 	}
 
-	/**
-	 * @see IContactDetailsView.Presenter#goTo(Place)
-	 */
+
 	
 	public void goTo(Place place) {
 		logger.log(Level.FINE, "PlayerDetailsActivity.goTo()");
@@ -131,7 +137,7 @@ public class PlayerDetailsActivity extends AbstractActivity implements IPlayerDe
 		    	  
 		    	//  userNameControlGroup.setType(ControlGroupType.ERROR);
 				//	userNameHelpInline.setText("UserName should be input");  
-		        playerDetailsView.getGroupNameControlGroup().setType(ControlGroupType.ERROR);
+		       // playerDetailsView.getGroupNameControlGroup().setType(ControlGroupType.ERROR);
 		        //teamDetailsView.getTBTeamName().setStyleName(".gwt-TextBox");
 		        
 		      }

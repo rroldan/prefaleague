@@ -1,13 +1,20 @@
 package org.ibertech.client.activity;
 
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 public class ActivityRegistry {
-	private static TeamDetailsActivity teamDetailsActivity;
+
+
+    private static TeamDetailsActivity teamDetailsActivity;
 	private static TeamListActivity teamListActivity;
     private static TeamNavbarActivity teamNavBarActivity;
     private static PlayerListActivity playerListActivity;
     private static PlayerDetailsActivity playerDetailsActivity;
 
-	public static PlayerDetailsActivity getPlayerDetailsActivity() {
+
+
+    public static PlayerDetailsActivity getPlayerDetailsActivity() {
 		return playerDetailsActivity;
 	}
 

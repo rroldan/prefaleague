@@ -22,9 +22,9 @@ public interface IPlayerDetailsView extends IsWidget {
 
 	void clear();
 	
-	ControlGroup getGroupNameControlGroup();
 	
-	String getTeamEmail();
+	
+	
 	
 	void panelOff();
 

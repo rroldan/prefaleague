@@ -54,10 +54,6 @@ public class ClientFactory implements IClientFactory {
 		return eventBus;
 	}
 
-//	@Override
-//	public IToolBarView getToolBarView() {
-//		return toolBarView;
-//	}
 
 	
 	public ITeamListView getTeamListView() {

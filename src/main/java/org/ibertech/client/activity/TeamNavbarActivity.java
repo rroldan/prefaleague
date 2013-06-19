@@ -2,6 +2,7 @@ package org.ibertech.client.activity;
 
 
 import org.ibertech.client.IClientFactory;
+import org.ibertech.client.place.PlayerPlace;
 import org.ibertech.client.place.TeamPlace;
 import org.ibertech.client.ui.ITeamNavbarView;
 import org.ibertech.client.ui.ITeamNavbarView.Presenter;
@@ -34,6 +35,14 @@ public class TeamNavbarActivity extends AbstractActivity implements Presenter {
 		this.place = place;
 		logger.log(Level.FINE, "TeamNavbarAvtivity.TeamDetailsActivity() token: " + token);
 	}
+
+
+    public TeamNavbarActivity(PlayerPlace place, IClientFactory clientFactory) {
+        this.clientFactory = clientFactory;
+        token = place.getToken();
+        this.place = place;
+        logger.log(Level.FINE, "TeamNavbarAvtivity.TeamDetailsActivity() token: " + token);
+    }
 	
 	
     
@@ -56,12 +65,13 @@ public class TeamNavbarActivity extends AbstractActivity implements Presenter {
 		logger.log(Level.FINE,"TeamDetailsActivity.goTo()");
 		clientFactory.getPlaceController().goTo(place);
 		
-	}
-
+    }
 
 	
 	public void groupsOption() {
 		logger.log(Level.FINE,"press button groups");
+        Place teamPlace = new TeamPlace("");
+        clientFactory.getPlaceController().goTo(teamPlace);
 		DockLayoutPanel dockLayoutPanel2 = (DockLayoutPanel)RootLayoutPanel.get().getWidget(0);
 		DeckLayoutPanel deckLayoutPanel = (DeckLayoutPanel)dockLayoutPanel2.getWidget(1);
 		deckLayoutPanel.showWidget(0);
@@ -73,9 +83,11 @@ public class TeamNavbarActivity extends AbstractActivity implements Presenter {
 	
 	public void groupsPlayers() {
 		logger.log(Level.FINE,"press buton player");
+        Place playerPlace = new PlayerPlace("");
+        clientFactory.getPlaceController().goTo(playerPlace);
 		DockLayoutPanel dockLayoutPanel2 = (DockLayoutPanel)RootLayoutPanel.get().getWidget(0);
 		DeckLayoutPanel deckLayoutPanel = (DeckLayoutPanel)dockLayoutPanel2.getWidget(1);
-		deckLayoutPanel.showWidget(3);
+		deckLayoutPanel.showWidget(2);
 		
 	}
 

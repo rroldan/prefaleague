@@ -7,6 +7,7 @@ import org.ibertech.client.mvp.NorthActivityMapper;
 import org.ibertech.client.mvp.PlayerListActivityMapper;
 import org.ibertech.client.mvp.SouthActivityMapper;
 import org.ibertech.client.place.TeamPlace;
+import org.ibertech.client.place.PlayerPlace;
 import com.google.gwt.activity.shared.ActivityManager;
 import com.google.gwt.activity.shared.ActivityMapper;
 import com.google.gwt.core.client.EntryPoint;
@@ -45,6 +46,7 @@ public class Prefaleague implements EntryPoint {
 	
 	
 	private final Place defaultPlace = new TeamPlace("");
+    private final Place playerPlace = new PlayerPlace("");
 	private final DockLayoutPanel dockLayoutPanel = new DockLayoutPanel(Unit.EM);
 	private final DeckLayoutPanel deckLayoutPanel = new DeckLayoutPanel();
 
@@ -126,10 +128,11 @@ public class Prefaleague implements EntryPoint {
 		deckLayoutPanel.add(southPanel);
 		deckLayoutPanel.add(centerPanel);
 		
-		deckLayoutPanel.add(playerListPanel);
+		//deckLayoutPanel.add(playerListPanel);
 		deckLayoutPanel.add(playerDetailsPanel);
+        //deckLayoutPanel.add(playerListPanel);
 		
-		deckLayoutPanel.showWidget(1);
+		deckLayoutPanel.showWidget(0);
 		dockLayoutPanel.addNorth(northPanel, 4.5);
 		//dockLayoutPanel.addSouth(centerPanel,50);
 		//dockLayoutPanel.add(southPanel);
@@ -159,21 +162,20 @@ public class Prefaleague implements EntryPoint {
 		southActivityManager.setDisplay(southDisplay);
 		
 		
-		ActivityMapper  playerListActivityMapper = new PlayerListActivityMapper(clientFactory);
-		ActivityManager playerListActivityManager = new ActivityManager(playerListActivityMapper, eventBus);
-		playerListActivityManager.setDisplay(playerListDisplay);
-		
 		ActivityMapper playerDetailsActivityMapper = new PlayerDetailsActivityMapper(clientFactory);
 		ActivityManager playerDetailsActivityManager = new ActivityManager(playerDetailsActivityMapper, eventBus);
 		playerDetailsActivityManager.setDisplay(playerDetailsDisplay);
-		
-		
-		
+
+
+        ActivityMapper  playerListActivityMapper = new PlayerListActivityMapper(clientFactory);
+        ActivityManager playerListActivityManager = new ActivityManager(playerListActivityMapper, eventBus);
+        playerListActivityManager.setDisplay(playerListDisplay);
 		
 		// Start PlaceHistoryHandler with our PlaceHistoryMapper
 		AppPlaceHistoryMapper historyMapper = GWT.create(AppPlaceHistoryMapper.class);
 		PlaceHistoryHandler historyHandler = new PlaceHistoryHandler(historyMapper);
 		historyHandler.register(placeController, eventBus, defaultPlace);
+
 
 		RootLayoutPanel.get().add(dockLayoutPanel);
 		

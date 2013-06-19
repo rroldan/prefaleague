@@ -5,6 +5,7 @@ import org.ibertech.client.IClientFactory;
 import org.ibertech.client.IShowcaseActivity;
 import org.ibertech.client.activity.TeamNavbarActivity;
 import org.ibertech.client.place.TeamPlace;
+import org.ibertech.client.place.PlayerPlace;
 
 import com.google.gwt.activity.shared.Activity;
 import com.google.gwt.activity.shared.ActivityMapper;
@@ -25,11 +26,14 @@ public class NorthActivityMapper implements ActivityMapper {
 	public Activity getActivity(Place place) {
 		
 		
-		if (place instanceof Place) {
+		if (place instanceof TeamPlace) {
 			return new TeamNavbarActivity((TeamPlace) place, clientFactory);
 		}
-			
-		return null;	
+
+        if (place instanceof PlayerPlace) {
+            return new TeamNavbarActivity((PlayerPlace) place, clientFactory);
+        }
+        return null;
   }		
 	
 	
