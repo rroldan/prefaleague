@@ -18,6 +18,9 @@ public class PlayerDetailsView extends Composite implements IPlayerDetailsView {
 
     private Presenter presenter;
     @UiField TextBox tbPlayerName;
+    @UiField TextBox tbPosition;
+    @UiField TextBox tbskills;
+
 
 	interface PlayerDetailsUiBinder extends UiBinder<Widget, PlayerDetailsView> {
 	}
