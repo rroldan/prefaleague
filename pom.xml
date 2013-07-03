@@ -8,7 +8,7 @@
 	<artifactId>prefaleague</artifactId>
 	<packaging>war</packaging>
 	<version>1.0</version>
-	<name>GWT Maven Archetype</name>
+	<name>GWT Prefaleague</name>
 
 	<properties>
 		<!-- Convenience property to set the GWT version -->
@@ -108,12 +108,8 @@
 			<version>${appengine.target.version}</version>
 			<scope>test</scope>
 		</dependency>
-        <dependency>
-        <groupId>org.mockito</groupId>
-        <artifactId>mockito-all</artifactId>
-        <version>1.9.5</version>
-        <scope>test</scope>
-        </dependency>
+
+
 
 		<!-- JPA -->
 
@@ -168,15 +164,12 @@
 			<version>1.5.6</version>
 		</dependency>
 
-		<dependency>
-			<groupId>com.google.appengine</groupId>
-			<artifactId>appengine-api-labs</artifactId>
-			<version>${appengine.target.version}</version>
-		</dependency>
 
 
 
-	</dependencies>
+
+
+    </dependencies>
 
 	<build>
 		<!-- Generate compiled stuff in the folder used for developing mode -->
@@ -228,8 +221,10 @@
 					documentation at codehaus.org -->
 				<configuration>
 					<!-- <appEngineHome>${appEngineSdk}</appEngineHome> -->
-					<appEngineHome>${appEngineHome}</appEngineHome>
-					<runTarget>prefaleague.html</runTarget>
+                    <appEngineArtifactId>appengine-java-sdk</appEngineArtifactId>
+                    <appEngineGroupId>com.google.appengine</appEngineGroupId>
+                    <appEngineVersion>${appengine.target.version}</appEngineVersion>
+                    <runTarget>prefaleague.html</runTarget>
 					<hostedWebapp>${webappDirectory}</hostedWebapp>
 					<!-- <i18nMessagesBundle>org.inforcad.prefaleague.client.Messages</i18nMessagesBundle> -->
 					<logLevel>INFO</logLevel>
@@ -237,6 +232,7 @@
 					<server>com.google.appengine.tools.development.gwt.AppEngineLauncher</server>
 
 				</configuration>
+
 			</plugin>
 
 
@@ -249,9 +245,7 @@
 
 				<configuration>
 					<api>JPA</api>
-					<enhancerName>ASM</enhancerName>
 					<log4jConfiguration>${basedir}/src/main/resources/log4j.properties</log4jConfiguration>
-					<mappingIncludes>**/shared/*.class</mappingIncludes>
 					<verbose>true</verbose>
 					<metadataDirectory>target/prefaleague-1.0/WEB-INF/classes</metadataDirectory>
 

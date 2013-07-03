@@ -1,5 +1,6 @@
 package org.ibertech.client.ui;
 
+import com.github.gwtbootstrap.client.ui.ListBox;
 import com.github.gwtbootstrap.client.ui.TextBox;
 import com.google.gwt.uibinder.client.UiField;
 import org.ibertech.shared.Player;
@@ -19,7 +20,7 @@ public class PlayerDetailsView extends Composite implements IPlayerDetailsView {
     private Presenter presenter;
     @UiField TextBox tbPlayerName;
     @UiField TextBox tbPosition;
-    @UiField TextBox tbskills;
+    @UiField ListBox lbSkills;
 
 
 	interface PlayerDetailsUiBinder extends UiBinder<Widget, PlayerDetailsView> {

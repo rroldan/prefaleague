@@ -31,7 +31,7 @@
 					</b:ControlGroup>
 
 					<b:ControlGroup>
-						<b:ControlLabel>Raza:</b:ControlLabel>
+						<b:ControlLabel>Habilidades:</b:ControlLabel>
 						<b:Controls>
 							<b:ListBox ui:field="cRace"></b:ListBox>
 						</b:Controls>

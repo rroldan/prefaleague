@@ -20,6 +20,18 @@
 						<b:TextBox ui:field="tbPlayerName" placeholder="Nombre del Jugador"></b:TextBox>
 					</b:Controls>
 				</b:ControlGroup>
+                <b:ControlGroup>
+                    <b:ControlLabel>Posición:</b:ControlLabel>
+                    <b:Controls>
+                        <b:TextBox ui:field="tbPosition" placeholder="Posición"></b:TextBox>
+                    </b:Controls>
+                </b:ControlGroup>
+                <b:ControlGroup>
+                    <b:ControlLabel>Raza:</b:ControlLabel>
+                    <b:Controls>
+                        <b:ListBox ui:field="lbSkills"></b:ListBox>
+                    </b:Controls>
+                </b:ControlGroup>
 			</b:Fieldset>
 		</b:Form>
 
